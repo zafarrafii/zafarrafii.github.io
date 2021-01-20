@@ -106,7 +106,7 @@ zafarrafii@gmail.com</p>
 
 <h4 class="title" style="margin-top: 0cm">ABSTRACT</h4>
 
-<p style="text-indent: 0cm">In this website, we present a researcher in audio. The proposed researcher has a PhD in electrical engineering and computer science from Northwestern University, with a focus on audio signal analysis. He has over 30 publications, including conference papers, journal articles, and patents, with more than 1200 citations overall. He is actively involved within the research community, as a reviewer for numerous conferences and journals, a member of the IEEE audio and acoustic signal processing technical committee, and an organizer of networking meetups in the San Francisco Bay Area. He is currently a senior research engineer at Gracenote, where he is working on a number of projects, among others, audio content recognition, audio encoding analysis, and audio beamforming.</p>
+<p style="text-indent: 0cm">In this website, we present a researcher in audio. The proposed researcher has a PhD in electrical engineering and computer science from Northwestern University, with a focus on audio signal analysis. He has over 30 publications, including conference papers, journal articles, and patents, with more than 1,400 citations overall. He is actively involved within the research community, as a reviewer for numerous conferences and journals, a member of the IEEE audio and acoustic signal processing technical committee, and an organizer of networking meetups in the San Francisco Bay Area. He is currently a senior research engineer at Gracenote, where he is working on a number of projects, among others, audio recognition, audio beamforming, and audio classification.</p>
 
 <p style="margin-top: 0.5cm"><i><b>Index Terms—</b></i> audio, research, signal processing, source separation, content recognition</p>
 
@@ -121,18 +121,18 @@ zafarrafii@gmail.com</p>
 <p>The proposed researcher is named Zafar Rafii. He received a PhD in electrical engineering and computer science from <a href="http://www.northwestern.edu/">Northwestern University</a> in 2014. He was with the <a href="http://music.cs.northwestern.edu/">Interactive Audio Lab</a>, under the supervision of professor Bryan Pardo. Before that, he was a research engineer at Audionamix, in France. He is now a senior research engineer in the audio group of the Media Technology Lab at <a href="http://www.gracenote.com/">Gracenote</a>.</p>
 
 <p>
-The proposed researcher has interest and expertise in audio signal analysis, somewhere between signal processing, machine learning, and cognitive science. He has worked on a number of projects, including:
+The proposed researcher has interest and expertise in audio signal analysis; he has worked on a number of projects, including:
 <ul>
 	<li>Blind source separation</li>
+	<li>Spatial source separation</li>
 	<li>Digital audio effects</li>
 	<li>Audio fingerprinting</li>
 	<li>Cover song identification</li>
 	<li>Audio encoding analysis</li>
-	<li>Spatial source separation</li>
 	<li>Audio beamforming</li>
 	<li>Audio watermarking</li>
-	<li>Onset/beat detection</li>
 	<li>Audio/video segmentation</li>
+	<li>Audio classification</li>
 </ul>
 </p>
 
@@ -526,69 +526,69 @@ kernels are shown. The values are displayed in log of amplitude.</figcaption>
 
 <h4 class="title" style="margin-top: 0cm" id="codes">4. CODES</h4>
 
-<h4 class="subtitle" style="margin-top: 0cm">4.1. Z</h4>
+<h4 class="subtitle" style="margin-top: 0cm">4.1. Zaf-Python</h4>
 
-<p>This <a href="https://github.com/zafarrafii/Z">repository</a> includes a Matlab class, a Python module, a Jupyter notebook, and a Julia module which implement/illustrate several methods/functions for audio signal processing.</p> 
-
-<p>
-<ul>
-	<li><i>stft</i> - Short-time Fourier transform (STFT)</li>
-	<li><i>istft</i>  - Inverse STFT</li>
-	<li><i>cqtkernel</i>  - Constant-Q transform (CQT) kernel</li>
-	<li><i>cqtspectrogram</i>  - CQT spectrogram using a CQT kernel</li>
-	<li><i>cqtchromagram</i>  - CQT chromagram using a CQT kernel</li>
-	<li><i>mfcc</i>  - Mel frequency cepstrum coefficients (MFCCs)</li>
-	<li><i>dct</i>  - Discrete cosine transform (DCT) using the fast Fourier transform (FFT)</li>
-	<li><i>dst</i>  - Discrete sine transform (DST) using the FFT</li>
-	<li><i>mdct</i>  - Modified discrete cosine transform (MDCT) using the DCT-IV</li>
-	<li><i>imdct</i>  - Inverse MDCT using the DCT-IV</li>
-</ul>
-</p>
+<p>This <a href="https://github.com/zafarrafii/Zaf-Python">repository</a> contains Zafar's Audio Functions in <b>Python</b> for audio signal analysis: STFT, inverse STFT, CQT kernel, CQT spectrogram, CQT chromagram, MFCC, DCT, DST, MDCT, inverse MDCT.</p> 
 
 <figure>
-	<a href="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/stft.png"><img src="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/stft.png" alt="ft-spectrogram" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/cqtspectrogram.png"><img src="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/cqtspectrogram.png" alt="cqt-spectrogram" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/cqtchromagram.png"><img src="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/cqtchromagram.png" alt="cqt-chromagram" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/mfcc.png"><img src="https://raw.githubusercontent.com/zafarrafii/Z/master/images/matlab/mfcc.png" alt="mfcc" style="width: 50%"></a>
-	<figcaption><b>Fig.20.</b> FT-spectrogram, CQT-spectrogram, CQT-chromagram, and MFCCs using the Z class.</figcaption>
+	<a href="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/stft.png"><img src="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/stft.png" alt="FT-Spectrogram" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/cqtspectrogram.png"><img src="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/cqtspectrogram.png" alt="CQT-Spectrogram" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/mfcc.png"><img src="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/mfcc.png" alt="MFCCs" style="width: 50%"></a><a href="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/mdct.png"><img src="https://raw.githubusercontent.com/zafarrafii/Zaf-Python/master/images/mdct.png" alt="MDCT" style="width: 50%"></a>
+	<figcaption><b>Fig.20.</b> FT-spectrogram, CQT-spectrogram, MFCCs, and MDCT using the Zaf-Python module.</figcaption>
 </figure>
 
 
-<h4 class="subtitle">4.2. REPET</h4>
+<h4 class="subtitle">4.2. Zaf-Matlab</h4>
 
-<p>This <a href="https://github.com/zafarrafii/REPET">repository</a> includes a Matlab class and a Python module which implement a number of methods/functions for the different algorithms of the REpeating Pattern Extraction Technique (REPET).</p>
+<p>This <a href="https://github.com/zafarrafii/Zaf-Matlab">repository</a> contains Zafar's Audio Functions in <b>Matlab</b> for audio signal analysis.</p> 
 
-<p>
-<ul>
-	<li><i>original</i> - REPET (original)
-	<li><i>extended</i> - REPET extended
-	<li><i>adaptive</i> - Adaptive REPET
-	<li><i>sim</i> - REPET-SIM
-	<li><i>simonline</i> - REPET-SIM online
-</ul>
-</p>
 
-<p>This <a href="https://github.com/zafarrafii/REPET-GUI">repository</a> includes Matlab GUIs to demo the original REPET and REPET-SIM.</p>
+<h4 class="subtitle">4.3. Zaf-Julia</h4>
 
-<p>This <a href="https://github.com/zafarrafii/uREPET">repository</a> contains a Matlab GUI for uREPET, a simple user interface system for recovering patterns repeating in time and frequency in mixtures of sounds.</p>
+<p>This <a href="https://github.com/zafarrafii/Zaf-Julia">repository</a> contains Zafar's Audio Functions in <b>Julia</b> for audio signal analysis.</p> 
+
+
+<h4 class="subtitle">4.4. REPET-Python</h4>
+
+<p>This <a href="https://github.com/zafarrafii/REPET-Python">repository</a> contains REPET in <b>Python</b> for audio source separation: original REPET, REPET extended, adaptive REPET, REPET-SIM, online REPET-SIM.</p>
+
+
+<h4 class="subtitle">4.5. REPET-Matlab</h4>
+
+<p>This <a href="https://github.com/zafarrafii/REPET-Matlab">repository</a> contains REPET in <b>Matlab</b> for audio source separation.</p>
+
+
+<h4 class="subtitle">4.6. REPET-GUI-Matlab</h4>
+
+<p>This <a href="https://github.com/zafarrafii/REPET-GUI-Matlab">repository</a> contains Matlab GUIs to demo the original REPET and REPET-SIM.</p>
+
+
+<h4 class="subtitle">4.7. uREPET-Matlab</h4>
+
+<p>This <a href="https://github.com/zafarrafii/uREPET-Matlab">repository</a> contains a Matlab GUI for uREPET, a simple user interface system for recovering patterns repeating in time and frequency in mixtures of sounds.</p>
 
 <figure>
-	<a href="https://github.com/zafarrafii/uREPET/raw/master/images/select_urepet_background_undo_save.gif"><img src="https://github.com/zafarrafii/uREPET/raw/master/images/select_urepet_background_undo_save.gif" alt="urepet"></a>
+	<a href="https://github.com/zafarrafii/uREPET-Matlab/raw/master/images/select_urepet_background_undo_save.gif"><img src="https://github.com/zafarrafii/uREPET-Matlab/raw/master/images/select_urepet_background_undo_save.gif" alt="urepet"></a>
 	<figcaption><b>Fig.21.</b> uREPET GUI.</figcaption>
 </figure>
 
 <p>For more information, the reader is referred to <a href="#rafii2011">[30]</a>, <a href="#liutkus2012">[28]</a>, <a href="#rafii2012">[27]</a>, <a href="#rafii20132">[26]</a>, <a href="#rafii2013">[13]</a>, <a href="#rafii20142">[34]</a>, and <a href="#rafii2015">[20]</a>.</p>
 
 
-<h4 class="subtitle">4.3. Others</h4>
+<h4 class="subtitle">4.8. Zap-Matlab</h4>
 
-<p>This <a href="https://github.com/zafarrafii/Zap">repository</a> contains a Matlab GUI which implements Zafar's audio player (Zap), featuring some practical functionalities such as a synchronized spectrogram, a select/drag tool, and a playback line.</p>
+<p>This <a href="https://github.com/zafarrafii/Zap-Matlab">repository</a> contains a Matlab GUI which implements Zafar's audio player (Zap), featuring some practical functionalities such as a synchronized spectrogram, a select/drag tool, and a playback line.</p>
 
 <figure>
-	<a href="https://raw.githubusercontent.com/zafarrafii/Zap/master/images/zap_play.gif"><img src="https://raw.githubusercontent.com/zafarrafii/Zap/master/images/zap_play.gif"></a>
+	<a href="https://raw.githubusercontent.com/zafarrafii/Zap-Matlab/master/images/zap_play.gif"><img src="https://raw.githubusercontent.com/zafarrafii/Zap-Matlab/master/images/zap_play.gif"></a>
 	<figcaption><b>Fig.21.</b> Zap GUI.</figcaption>
 </figure>
 
-<p>This <a href="https://github.com/zafarrafii/Python-Problems">repository</a> contains Jupyter notebooks with Python coding problems (and solutions). These can be good exercises for beginners and more experienced users to improve and review their programming skills in Python. The problems are borrowed from the Internet and the solutions are given in Jupyter notebooks with detailed comments to help understand them. The proposed solutions are not necessarily optimized so feel free to to contact me if you find anything wrong with them.</p>
+
+<h4 class="subtitle">4.9. Problems-Python</h4>
+
+<p>This <a href="https://github.com/zafarrafii/Problems-Python">repository</a> contains Jupyter notebooks with Python coding problems (and solutions). These can be good exercises for beginners and more experienced users to improve and review their programming skills in Python. The problems are borrowed from the Internet and the solutions are given in Jupyter notebooks with detailed comments to help understand them. The proposed solutions are not necessarily optimized so feel free to to contact me if you find anything wrong with them.</p>
 
 </div>
+
 
 
 <div class="twocolumn">
