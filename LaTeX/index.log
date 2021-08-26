@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.11)  25 AUG 2021 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.11)  26 AUG 2021 12:37
 entering extended mode
 **./index.tex
 (index.tex
@@ -272,7 +272,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem
+.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen154
+\enit@toks=\toks21
+\enit@inbox=\box49
+\enit@count@id=\count275
+\enitdp@description=\count276
+)
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/movie15\movie15.s
+ty
+Package: movie15 2012/05/16
+
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.
+sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/base\everyshi-ltx
+.sty
+Package: everyshi-ltx 2020/08/17 v1.0a Emulation of the original everyshi packa
+ge
+with kernel methods
+)
+\@MXV@page=\count277
+\@MXV@adict=\count278
+\@MXV@aadict=\count279
+\@MXV@includes=\count280
+\@MXV@players=\count281
+\@MXV@links=\count282
+\@MXV@width=\dimen155
+\@MXV@height=\dimen156
+\@MXV@depth=\dimen157
+\@MXV@totalheight=\dimen158
+\@MXV@@boxdepth=\dimen159
+\@MXV@traiselen=\dimen160
+\@MXV@braiselen=\dimen161
+\@MXV@start=\dimen162
+\@MXV@end=\dimen163
+\@MXV@textbox=\box50
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 3.
 
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
@@ -281,48 +330,44 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
-\l__pdf_internal_box=\box49
-) (index.aux
-
-LaTeX Warning: Label `fig:res' multiply defined.
-
-)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box51
+) (index.aux)
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen154
-\scratchbox=\box50
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen155
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count284
+\scratchdimen=\dimen164
+\scratchbox=\box52
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen165
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks23
 )
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
 opdf-base.sty
@@ -334,7 +379,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 43.
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.st
+y
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 53.
 
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.
 sty
@@ -348,138 +403,117 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
  (index.out) (index.out)
 \@outlinefile=\write3
 \openout3 = `index.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
 8.
 
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<zafar.jpg, id=50, 150.5625pt x 150.5625pt>
-File: zafar.jpg Graphic file (type jpg)
-<use zafar.jpg>
-Package pdftex.def Info: zafar.jpg  used on input line 63.
+<Images/zafar.jpg, id=18, 150.5625pt x 150.5625pt>
+File: Images/zafar.jpg Graphic file (type jpg)
+<use Images/zafar.jpg>
+Package pdftex.def Info: Images/zafar.jpg  used on input line 73.
 (pdftex.def)             Requested size: 122.34685pt x 122.35239pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
+0.
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1{C:/Users/zarafii2001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+)
+
+LaTeX Warning: Hyper reference `sec:repet' on page 1 undefined on input line 10
+8.
+
+
+LaTeX Warning: Hyper reference `sec:codes' on page 1 undefined on input line 10
+8.
+
+
+LaTeX Warning: Hyper reference `sec:refs' on page 1 undefined on input line 108
+.
+
+[1{C:/Users/zarafii2001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 
- <./zafar.jpg>]
+ <./Images/zafar.jpg>]
+<Images/reverberation.jpg, id=41, 574.39594pt x 310.91156pt>
+File: Images/reverberation.jpg Graphic file (type jpg)
+<use Images/reverberation.jpg>
+Package pdftex.def Info: Images/reverberation.jpg  used on input line 123.
+(pdftex.def)             Requested size: 244.6937pt x 132.4464pt.
+<Images/duet.png, id=42, 1158.3275pt x 621.32124pt>
+File: Images/duet.png Graphic file (type png)
+<use Images/duet.png>
+Package pdftex.def Info: Images/duet.png  used on input line 138.
+(pdftex.def)             Requested size: 244.6937pt x 131.24924pt.
 
-LaTeX Warning: Citation `Lamp86' on page 2 undefined on input line 139.
+Underfull \hbox (badness 1205) in paragraph at lines 143--144
+\OT1/ptm/m/n/10 by build-ing the 2d his-togram from an al-ter-na-tive time-
+ []
 
-Package epstopdf Info: Source file: <image1.eps>
-(epstopdf)                    date: 2021-08-25 10:46:46
-(epstopdf)                    size: 24261 bytes
-(epstopdf)             Output file: <image1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-08-25 10:47:04
-(epstopdf)                    size: 5859 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=image1-eps-converted
--to.pdf image1.eps>
-(epstopdf)             \includegraphics on input line 158.
-Package epstopdf Info: Output file is already uptodate.
+[2 <./Images/reverberation.jpg> <./Images/duet.png>]
 
-
-pdfTeX warning: pdflatex (file ./image1-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<image1-eps-converted-to.pdf, id=63, 261.97874pt x 58.2175pt>
-File: image1-eps-converted-to.pdf Graphic file (type pdf)
-<use image1-eps-converted-to.pdf>
-Package pdftex.def Info: image1-eps-converted-to.pdf  used on input line 158.
-(pdftex.def)             Requested size: 241.84842pt x 53.7455pt.
-Package epstopdf Info: Source file: <image3.eps>
-(epstopdf)                    date: 2021-08-25 10:46:51
-(epstopdf)                    size: 24252 bytes
-(epstopdf)             Output file: <image3-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-08-25 10:47:05
-(epstopdf)                    size: 5273 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=image3-eps-converted
--to.pdf image3.eps>
-(epstopdf)             \includegraphics on input line 165.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./image3-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<image3-eps-converted-to.pdf, id=64, 231.86626pt x 143.53625pt>
-File: image3-eps-converted-to.pdf Graphic file (type pdf)
-<use image3-eps-converted-to.pdf>
-Package pdftex.def Info: image3-eps-converted-to.pdf  used on input line 165.
-(pdftex.def)             Requested size: 113.81102pt x 70.45602pt.
-Package epstopdf Info: Source file: <image4.eps>
-(epstopdf)                    date: 2021-08-25 10:46:52
-(epstopdf)                    size: 23170 bytes
-(epstopdf)             Output file: <image4-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-08-25 10:47:06
-(epstopdf)                    size: 4976 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=image4-eps-converted
--to.pdf image4.eps>
-(epstopdf)             \includegraphics on input line 172.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./image4-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<image4-eps-converted-to.pdf, id=65, 231.86626pt x 143.53625pt>
-File: image4-eps-converted-to.pdf Graphic file (type pdf)
-<use image4-eps-converted-to.pdf>
-Package pdftex.def Info: image4-eps-converted-to.pdf  used on input line 172.
-(pdftex.def)             Requested size: 113.81102pt x 70.45602pt.
-
-LaTeX Warning: Citation `Lamp86' on page 2 undefined on input line 212.
-
-
-LaTeX Warning: Citation `C2' on page 2 undefined on input line 213.
-
-[2 <./image1-eps-converted-to.pdf> <./image3-eps-converted-to.pdf> <./image4-ep
-s-converted-to.pdf>]
-
-LaTeX Warning: Citation `C2' on page 3 undefined on input line 228.
+LaTeX Warning: Citation `C2' on page 3 undefined on input line 178.
 
 No file index.bbl.
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Rerun to get object references right! @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
 [3
 
-] (index.aux)
+<<Audio/DUET/A2_estimated.mp3>>] (index.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 4157848B47A02984E9024DDB2C63437E;1529.
+
+Package rerunfilecheck Warning: File `index.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `index.out':
+(rerunfilecheck)             Before: 5E874FA9A7707B75742228FD41A13E83;452
+(rerunfilecheck)             After:  0E791E798908ACAA1223122DF12099E7;913.
  ) 
 Here is how much of TeX's memory you used:
- 8699 strings out of 479173
- 130324 string characters out of 2851305
- 434612 words of memory out of 3000000
- 26165 multiletter control sequences out of 15000+600000
- 419542 words of font info for 58 fonts, out of 8000000 for 9000
+ 9445 strings out of 479173
+ 143275 string characters out of 2851305
+ 489019 words of memory out of 3000000
+ 26895 multiletter control sequences out of 15000+600000
+ 419443 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,784b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,63p,969b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/courier/ucrr8a.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii2001/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on index.pdf (3 pages, 111245 bytes).
+nts/cm/cmmi10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/zarafii2001/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii200
+1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on index.pdf (3 pages, 375947 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

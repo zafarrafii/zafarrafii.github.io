@@ -5,6 +5,16 @@
 \documentclass{article}
 \usepackage{spconf,amsmath,graphicx}
 \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Zafar's website},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{enumitem}
+\usepackage{movie15}
 
 % Example definitions.
 % --------------------
@@ -50,24 +60,23 @@ We present Zafar, Ze Awesome French Audio Researcher. The proposed researcher ha
 \end{abstract}
 %
 \begin{keywords}
-Research, audio, signal processing, separation, recognition, classification
+Research, audio signal analysis, separation, recognition, classification
 \end{keywords}
-%
+
 \section{Introduction}
 \label{sec:intro}
 
-The proposed researcher is named Zafar Rafii. He received a PhD in electrical engineering and computer science from \href{https://www.northwestern.edu/}{Northwestern University} in 2014. He was with the \href{https://interactiveaudiolab.github.io/}{Interactive Audio Lab}, under the supervision of professor Bryan Pardo. Before that, he was a research engineer at Audionamix, in France. He is now a research engineer manager in the audio group of the Applied Research group at \href{https://www.gracenote.com/}{Gracenote}.
+The proposed researcher is named Zafar Rafii. He received a PhD in electrical engineering and computer science from \href{https://www.northwestern.edu/}{Northwestern University} in 2014. He was with the \href{https://interactiveaudiolab.github.io/}{Interactive Audio Lab} under the supervision of professor Bryan Pardo. Prior to that, he was a research engineer at Audionamix, in France. He is now a research engineer manager in the Applied Research group at \href{https://www.gracenote.com/}{Gracenote}.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.5\columnwidth]{zafar.jpg}
+\includegraphics[width=0.5\columnwidth]{Images/zafar.jpg}
 \caption{Overview of the proposed researcher.}
-\label{fig:res}
+\label{fig:zafar}
 \end{figure}
 
-The proposed researcher has interest and expertise in audio signal analysis; he has worked on a number of projects, including:
-\begin{itemize}
-\setlength\itemsep{-0.5em}
+The proposed researcher has interest and expertise in audio signal analysis. He has worked on a number of projects, including:
+\begin{itemize}[noitemsep,topsep=0pt]
 \item Blind source separation
 \item Spatial source separation
 \item Digital audio effects
@@ -80,143 +89,84 @@ The proposed researcher has interest and expertise in audio signal analysis; he 
 \item Audio classification
 \end{itemize}
 
+For more information on the proposed researcher, the reader is referred to the following materials:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Zafar Rafii - CV.pdf}{CV}
+\item \href{https://github.com/zafarrafii}{GitHub}
+\item \href{https://www.linkedin.com/in/zafarrafii/}{LinkedIn}
+\item \href{https://scholar.google.com/citations?user=8wbS2EsAAAAJ&hl=en}{Google Scholar}
+\end{itemize}
 
-\section{MAJOR HEADINGS}
-\label{sec:majhead}
+For other relevant information related to the proposed researcher, such as the meetups he organizes, the mentoring program he is involved in, or the audio dataset he created, the reader is referred to the following links:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{https://www.meetup.com/bishbash/}{SF-BISH Bash meetup}
+\item \href{https://www.youtube.com/channel/UCfVTmVY__IObKq06vZFryxA}{SF-BISH Bash YouTube channel}
+\item \href{https://wimir.wordpress.com/}{Women in Music Information Retrieval}
+\item \href{https://sigsep.github.io/datasets/musdb.html#musdb18-compressed-stems}{MUSDB18 dataset}
+\end{itemize}
 
-Major headings, for example, "1. Introduction", should appear in all capital
-letters, bold face if possible, centered in the column, with one blank line
-before, and one blank line after. Use a period (".") after the heading number,
-not a colon.
+The rest of the website is organized as follows. In \hyperref[sec:research]{Section 2}, we present a selection of projects the proposed researcher has worked on. In \hyperref[sec:repet]{Section 3}, we introduce his PhD thesis work on the REpeating Pattern Extraction Technique (REPET) for blind source separation. In \hyperref[sec:codes]{Section 4}, we share links to his GitHub repositories where some of his source codes reside. In \hyperref[sec:refs]{Section 5}, we provide references to all of his publications, presentations, and other materials.
 
-\subsection{Subheadings}
-\label{ssec:subhead}
 
-Subheadings should appear in lower case (initial word capitalized) in
-boldface.  They should start at the left margin on a separate line.
- 
-\subsubsection{Sub-subheadings}
-\label{sssec:subsubhead}
+\section{Research}
+\label{sec:research}
 
-Sub-subheadings, as in this paragraph, are discouraged. However, if you
-must use them, they should appear in lower case (initial word
-capitalized) and start at the left margin on a separate line, with paragraph
-text beginning on the following line.  They should be in italics.
+\subsection{Adaptive Reverberation Tool (2008)}
+\label{ssec:reverb}
 
-\section{PRINTING YOUR PAPER}
-\label{sec:print}
+People often think about sound in terms of subjective concepts which do not necessarily have known mappings onto the controls of existing audio tools. For example, a bass player may wish to use a reverberation effect to make her/his bass sound more "boomy", but unfortunately there is no "boomy" knob to be found. We developed a system that can quickly learn an audio concept from a user (e.g., a "boomy" effect) and generate a simple controller than can manipulate sounds in terms of that audio concept (e.g., make a sound more "boomy"), bypassing the bottleneck of technical knowledge of complex interfaces and individual differences in subjective terms.
 
-Print your properly formatted text on high-quality, 8.5 x 11-inch white printer
-paper. A4 paper is also acceptable, but please leave the extra 0.5 inch (12 mm)
-empty at the BOTTOM of the page and follow the top and left margins as
-specified.  If the last page of your paper is only partially filled, arrange
-the columns so that they are evenly balanced if possible, rather than having
-one long column.
+For this study, we focused on reverberation effects. We developed a digital reverberator, mapping the parameters of the digital filters to measures of the reverberation effect, so that the reverberator can be controlled through meaningful descriptors such as "reverberation time" or "spectral centroid." In the learning process, a sound is first modified by a series of reverberation settings using the reverberator. The user then listens and rates each modified sound as to how well it fits the audio concept she/he has in mind. The ratings are finally mapped onto the controls of the reverberator and a simple controller is built with which the user is able to manipulate the degree of her/his audio concept on a sound. Several experiments conducted on human subjects showed that the system learns quickly (under 3 minutes), predicts user responses well (mean correlation of 0.75), and meets users' expectations (average human rating of 7.4 out of 10).
 
-In LaTeX, to start a new column (but not a new page) and help balance the
-last-page column lengths, you can use the command ``$\backslash$pagebreak'' as
-demonstrated on this page (see the LaTeX source below).
-
-\section{PAGE NUMBERING}
-\label{sec:page}
-
-Please do {\bf not} paginate your paper.  Page numbers, session numbers, and
-conference identification will be inserted when the paper is included in the
-proceedings.
-
-\section{ILLUSTRATIONS, GRAPHS, AND PHOTOGRAPHS}
-\label{sec:illust}
-
-Illustrations must appear within the designated margins.  They may span the two
-columns.  If possible, position illustrations at the top of columns, rather
-than in the middle or at the bottom.  Caption and number every illustration.
-All halftone illustrations must be clear black and white prints.  Colors may be
-used, but they should be selected so as to be readable when printed on a
-black-only printer.
-
-Since there are many ways, often incompatible, of including images (e.g., with
-experimental results) in a LaTeX document, below is an example of how to do
-this \cite{Lamp86}.
-
-\section{FOOTNOTES}
-\label{sec:foot}
-
-Use footnotes sparingly (or not at all!) and place them at the bottom of the
-column on the page on which they are referenced. Use Times 9-point type,
-single-spaced. To help your readers, avoid using footnotes altogether and
-include necessary peripheral observations in the text (within parentheses, if
-you prefer, as in this sentence).
-
-% Below is an example of how to insert images. Delete the ``\vspace'' line,
-% uncomment the preceding line ``\centerline...'' and replace ``imageX.ps''
-% with a suitable PostScript file name.
-% -------------------------------------------------------------------------
 \begin{figure}[htb]
-
-\begin{minipage}[b]{1.0\linewidth}
-  \centering
-  \centerline{\includegraphics[width=8.5cm]{image1}}
-%  \vspace{2.0cm}
-  \centerline{(a) Result 1}\medskip
-\end{minipage}
-%
-\begin{minipage}[b]{.48\linewidth}
-  \centering
-  \centerline{\includegraphics[width=4.0cm]{image3}}
-%  \vspace{1.5cm}
-  \centerline{(b) Results 3}\medskip
-\end{minipage}
-\hfill
-\begin{minipage}[b]{0.48\linewidth}
-  \centering
-  \centerline{\includegraphics[width=4.0cm]{image4}}
-%  \vspace{1.5cm}
-  \centerline{(c) Result 4}\medskip
-\end{minipage}
-%
-\caption{Example of placing a figure with experimental results.}
-\label{fig:res}
-%
+\centering
+\includegraphics[width=\columnwidth]{Images/reverberation.jpg}
+\caption{A listener rating a sound modified by a series of reverberation settings as to how well it fits the audio concept of "boomy" they have in mind.}
+\label{fig:reverb}
 \end{figure}
 
+For more information about this project, the reader is referred to ...
 
-% To start a new column (but not a new page) and help balance the last-page
-% column length use \vfill\pagebreak.
-% -------------------------------------------------------------------------
-%\vfill
-%\pagebreak
 
-\section{COPYRIGHT FORMS}
-\label{sec:copyright}
+\subsection{DUET using the CQT (2011)}
+\label{ssec:duet}
 
-You must submit your fully completed, signed IEEE electronic copyright release
-form when you submit your paper. We {\bf must} have this form before your paper
-can be published in the proceedings.
+The Degenerate Unmixing Estimation Technique (DUET) is a blind source separation method that can separate an arbitrary number of unknown sources using a single stereo mixture. DUET builds a two-dimensional histogram from the amplitude ratio and phase difference between channels, where each peak indicates a source, with peak location corresponding to the mixing parameters associated with that source. Provided that the time-frequency bins of the sources do not overlap too much - an assumption generally validated by speech mixtures, DUET partitions the time-frequency representation of the mixture by assigning each bin to the source with the closest mixing parameters. However, when time-frequency bins of the sources start to overlap more - as generally seen in music mixtures when using the common short-time Fourier transform (STFT), peaks start to fuse in the 2d histogram and DUET cannot perform separation effectively.
 
-\section{RELATION TO PRIOR WORK}
-\label{sec:prior}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/duet.png}
+\caption{Blind source separation of a stereo recording of Homer, Bart, and Lisa using DUET.}
+\label{fig:duet}
+\end{figure}
 
-The text of the paper should contain discussions on how the paper's
-contributions are related to prior work in the field. It is important
-to put new work in  context, to give credit to foundational work, and
-to provide details associated with the previous work that have appeared
-in the literature. This discussion may be a separate, numbered section
-or it may appear elsewhere in the body of the manuscript, but it must
-be present.
+We proposed to improve peak/source separation in DUET by building the 2d histogram from an alternative time-frequency representation based on the constant-Q transform (CQT). Unlike the Fourier transform, the CQT has a logarithmic frequency resolution, mirroring the human auditory system and matching the geometrically spaced frequencies of the Western music scale, therefore better adapted to music mixtures. We also proposed other contributions to enhance DUET, such as adaptive boundaries for the 2d histogram to improve peak resolving when sources are spatially too close to each other, and Wiener filtering to improve source reconstruction. Experiments on mixtures of piano notes and harmonic sources showed that peak/source separation is overall improved, especially at low octaves (under 200 Hz) and for small mixing angles (under ${\pi}/{6}$ rad).
 
-You should differentiate what is new and how your work expands on
-or takes a different path from the prior studies. An example might
-read something to the effect: "The work presented here has focused
-on the formulation of the ABC algorithm, which takes advantage of
-non-uniform time-frequency domain analysis of data. The work by
-Smith and Cohen \cite{Lamp86} considers only fixed time-domain analysis and
-the work by Jones et al \cite{C2} takes a different approach based on
-fixed frequency partitioning. While the present study is related
-to recent approaches in time-frequency analysis [3-5], it capitalizes
-on a new feature space, which was not considered in these earlier
-studies."
+Unlike the classic DUET based on the Fourier transform, DUET combined with the CQT can resolve adjacent pitches in low octaves as well as in high octaves thanks to the log frequency resolution of the CQT:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{https://www.meetup.com/bishbash/}{Mixture of 3 piano notes}
+\item \href{Audio/DUET/A2_estimated.mp3}{Estimated A2}
+\item \href{https://www.meetup.com/bishbash/}{Estimated Bb2}
+\item \href{https://www.meetup.com/bishbash/}{Estimated B2}
+\item \href{https://www.meetup.com/bishbash/}{Original A2}
+\item \href{https://www.meetup.com/bishbash/}{Original Bb2}
+\item \href{https://www.meetup.com/bishbash/}{Original B2}
+\end{itemize}
 
-\vfill\pagebreak
+\begin{figure}[ht]
+\includemovie[poster,text={\small(Loading Video...)}]{6cm}{4cm}{Audio/DUET/A2_estimated.mp3}
+\end{figure}
+
+For more information about this project, the reader is referred to ...
+
+
+\section{REPET}
+\label{sec:repet}
+
+
+\section{Codes}
+\label{sec:codes}
+
 
 \section{REFERENCES}
 \label{sec:refs}
