@@ -2359,8 +2359,7 @@
     <bcf:citekey order="9" nocite="1">patent_rafii_jul2020</bcf:citekey>
     <bcf:citekey order="10" nocite="1">patent_coover_mar2020</bcf:citekey>
     <bcf:citekey order="11" nocite="1">patent_pardo_jul2015</bcf:citekey>
-    <bcf:citekey order="12">rafii18</bcf:citekey>
-    <bcf:citekey order="13">vartakavi21</bcf:citekey>
+    <bcf:citekey order="12">article_rafii_nov2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

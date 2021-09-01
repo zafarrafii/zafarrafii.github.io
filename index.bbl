@@ -364,7 +364,7 @@
       \field{year}{2015}
       \true{nocite}
     \endentry
-    \entry{rafii18}{article}{}
+    \entry{article_rafii_nov2018}{article}{}
       \name{author}{1}{}{%
         {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
            family={Rafii},
@@ -384,40 +384,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Signal Processing Magazine}
-      \field{title}{Sliding Discrete Fourier Transform with Kernel Windowing}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{\href{Journals/Rafii - Sliding Discrete Fourier Transform with Kernel Windowing - 2018}{Sliding Discrete Fourier Transform with Kernel Windowing}}
+      \field{volume}{35}
       \field{year}{2018}
-    \endentry
-    \entry{vartakavi21}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=600c7406a739c2198bbee3ed69eefec4}{%
-           family={Vartakavi},
-           familyi={V\bibinitperiod},
-           given={Aneesh},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c08083593f3f3ef07988646cf242b498}{%
-           family={Garg},
-           familyi={G\bibinitperiod},
-           given={Amanmeet},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
-           family={Rafii},
-           familyi={R\bibinitperiod},
-           given={Zafar},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \strng{fullhash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \strng{bibnamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \strng{authorbibnamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \strng{authornamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \strng{authorfullhash}{aa6cf3d51d7c55ecd4f42114712fffd4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{29th European Signal Processing Conference}
-      \field{title}{Audio Summarization for Podcasts}
-      \field{year}{2021}
     \endentry
   \enddatalist
 \endrefsection

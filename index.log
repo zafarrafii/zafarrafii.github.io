@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  31 AUG 2021 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  1 SEP 2021 11:09
 entering extended mode
 **./index.tex
 (index.tex
@@ -686,13 +686,13 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Images/zafar.jpg, id=38, 150.5625pt x 150.5625pt>
+<Images/zafar.jpg, id=43, 150.5625pt x 150.5625pt>
 File: Images/zafar.jpg Graphic file (type jpg)
 <use Images/zafar.jpg>
-Package pdftex.def Info: Images/zafar.jpg  used on input line 46.
+Package pdftex.def Info: Images/zafar.jpg  used on input line 63.
 (pdftex.def)             Requested size: 122.34685pt x 122.35239pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-3.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+0.
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1{C:/Users/zarafii2001/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
@@ -700,18 +700,18 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
  <./Images/zafar.jpg>]
-<Images/reverberation.jpg, id=64, 574.39594pt x 310.91156pt>
+<Images/reverberation.jpg, id=70, 574.39594pt x 310.91156pt>
 File: Images/reverberation.jpg Graphic file (type jpg)
 <use Images/reverberation.jpg>
-Package pdftex.def Info: Images/reverberation.jpg  used on input line 96.
+Package pdftex.def Info: Images/reverberation.jpg  used on input line 113.
 (pdftex.def)             Requested size: 244.6937pt x 132.4464pt.
-<Images/duet.png, id=65, 1158.3275pt x 621.32124pt>
+<Images/duet.png, id=71, 1158.3275pt x 621.32124pt>
 File: Images/duet.png Graphic file (type png)
 <use Images/duet.png>
-Package pdftex.def Info: Images/duet.png  used on input line 111.
+Package pdftex.def Info: Images/duet.png  used on input line 128.
 (pdftex.def)             Requested size: 244.6937pt x 131.24924pt.
 
-Underfull \hbox (badness 1205) in paragraph at lines 116--117
+Underfull \hbox (badness 1205) in paragraph at lines 133--134
 \OT1/ptm/m/n/10 by build-ing the 2d his-togram from an al-ter-na-tive time-
  []
 
@@ -725,7 +725,7 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 [2 <./Images/reverberation.jpg> <./Images/duet.png>]
-Underfull \hbox (badness 1033) in paragraph at lines 162--162
+Underfull \hbox (badness 1033) in paragraph at lines 165--165
 []\OT1/ptm/m/n/10 Z. Rafii, M. Cre-mer, and B. Kim, ``[][]Meth-ods and
  []
 
@@ -741,41 +741,32 @@ Package biblatex Warning: Split bibliography detected.
 [3
 
 ] (index.aux)
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: 1CF419E409E21B1913FFF0BB7182D2EC;1018
-(rerunfilecheck)             After:  B1E93E871C91AADDF514BB06D343741E;1118.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: 4E89A9E9F326AAC1158FD11ACA50B5C5;1161.
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16493 strings out of 478927
- 285442 string characters out of 2849691
- 1021986 words of memory out of 3000000
- 34122 multiletter control sequences out of 15000+600000
+ 16491 strings out of 478927
+ 285409 string characters out of 2849691
+ 1022298 words of memory out of 3000000
+ 34121 multiletter control sequences out of 15000+600000
  419542 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,1053b,1353s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@vartakavi21} has been referenced but does 
-not exist, replaced by a fixed one
-
-{C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/zarafii2001/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii2001/
-AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on index.pdf (3 pages, 358648 bytes).
+ 60i,8n,66p,1053b,1354s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}<C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/zarafii2001/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii200
+1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on index.pdf (3 pages, 359427 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
