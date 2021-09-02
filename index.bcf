@@ -2359,7 +2359,18 @@
     <bcf:citekey order="9" nocite="1">patent_rafii_jul2020</bcf:citekey>
     <bcf:citekey order="10" nocite="1">patent_coover_mar2020</bcf:citekey>
     <bcf:citekey order="11" nocite="1">patent_pardo_jul2015</bcf:citekey>
-    <bcf:citekey order="12">article_rafii_nov2018</bcf:citekey>
+    <bcf:citekey order="12" nocite="1">article_rafii_nov2018</bcf:citekey>
+    <bcf:citekey order="13" nocite="1">article_rafii_aug2018</bcf:citekey>
+    <bcf:citekey order="14" nocite="1">article_rafii_dec2014</bcf:citekey>
+    <bcf:citekey order="15" nocite="1">article_liutkus_aug2014</bcf:citekey>
+    <bcf:citekey order="16" nocite="1">article_rafii_jan2013</bcf:citekey>
+    <bcf:citekey order="17" nocite="1">article_sabin_jun2013</bcf:citekey>
+    <bcf:citekey order="18" nocite="1">inproceedings_vartakavi_aug2021</bcf:citekey>
+    <bcf:citekey order="19" nocite="1">inproceedings_kim_sep2018</bcf:citekey>
+    <bcf:citekey order="20" nocite="1">inproceedings_seetharaman_mar2017</bcf:citekey>
+    <bcf:citekey order="21" nocite="1">inproceedings_fitzgerald_mar2017</bcf:citekey>
+    <bcf:citekey order="22" nocite="1">inproceedings_liutkus_feb2017</bcf:citekey>
+    <bcf:citekey order="23" nocite="1">inproceedings_ono_aug2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

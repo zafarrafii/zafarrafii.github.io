@@ -389,6 +389,453 @@
       \field{title}{\href{Journals/Rafii - Sliding Discrete Fourier Transform with Kernel Windowing - 2018}{Sliding Discrete Fourier Transform with Kernel Windowing}}
       \field{volume}{35}
       \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{article_rafii_aug2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=f4a16e0ab042dd144439541a282990c2}{%
+           family={Stylianos\bibnamedelimb Ioannis\bibnamedelima Mimilakis},
+           familyi={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Derry\bibnamedelima FitzGerald},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{fullhash}{d22e2807f61092ca761b79b3b8efb621}
+      \strng{bibnamehash}{d22e2807f61092ca761b79b3b8efb621}
+      \strng{authorbibnamehash}{d22e2807f61092ca761b79b3b8efb621}
+      \strng{authornamehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{authorfullhash}{d22e2807f61092ca761b79b3b8efb621}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{month}{8}
+      \field{number}{26}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Rafii-Liutkus-Stoter-Mimilakis-FitzGerald-Pardo - An Overview of Lead and Accompaniment Separation in Music - 2018.pdf}{An Overview of Lead and Accompaniment Separation in Music}}
+      \field{volume}{26}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{article_rafii_dec2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=67aa64f70405af0e3a1f0669b532bf33}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Zhiyao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{16279ae054e4c7569520a6d03ffdda55}
+      \strng{fullhash}{16279ae054e4c7569520a6d03ffdda55}
+      \strng{bibnamehash}{16279ae054e4c7569520a6d03ffdda55}
+      \strng{authorbibnamehash}{16279ae054e4c7569520a6d03ffdda55}
+      \strng{authornamehash}{16279ae054e4c7569520a6d03ffdda55}
+      \strng{authorfullhash}{16279ae054e4c7569520a6d03ffdda55}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Rafii-Duan-Pardo - Combining Rhythm-Based and Pitch-Based Methods for Background and Melody Separation - 2014.pdf}{Combining Rhythm-based and Pitch-based Methods for Background and Melody Separation}}
+      \field{volume}{22}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{article_liutkus_aug2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b991f85af10b5ed0f4a588505388467b}{%
+           family={Daudet},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{9353463aa2da541ccce47127aad38cb2}
+      \strng{fullhash}{d7c0095f2ecddf2e3a85a152ae3bbbf4}
+      \strng{bibnamehash}{d7c0095f2ecddf2e3a85a152ae3bbbf4}
+      \strng{authorbibnamehash}{d7c0095f2ecddf2e3a85a152ae3bbbf4}
+      \strng{authornamehash}{9353463aa2da541ccce47127aad38cb2}
+      \strng{authorfullhash}{d7c0095f2ecddf2e3a85a152ae3bbbf4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{month}{8}
+      \field{number}{16}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Liutkus-FitzGerald-Rafii-Pardo-Daudet - Kernel Additive Models for Source Separation - 2014}{Kernel Additive Models for Source Separation}}
+      \field{volume}{62}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{article_rafii_jan2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Audio, Speech, and Language Processing}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Rafii-Pardo - REpeating Pattern Extraction Technique (REPET) A Simple Method for Music-Voice Separation - 2013}{REpeating Pattern Extraction Technique ({REPET}): A Simple Method for Music/Voice Separation}}
+      \field{volume}{21}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{article_sabin_jun2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0b5c27b08c3cb6daa014d07000d682b7}{%
+           family={Sabin},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima Todd},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{30918e35455febf43606c3e14347c3bd}
+      \strng{fullhash}{30918e35455febf43606c3e14347c3bd}
+      \strng{bibnamehash}{30918e35455febf43606c3e14347c3bd}
+      \strng{authorbibnamehash}{30918e35455febf43606c3e14347c3bd}
+      \strng{authornamehash}{30918e35455febf43606c3e14347c3bd}
+      \strng{authorfullhash}{30918e35455febf43606c3e14347c3bd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Audio Engineering Society}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Sabin-Rafii-Pardo - Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters - 2011}{Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters}}
+      \field{volume}{59}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_vartakavi_aug2021}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=600c7406a739c2198bbee3ed69eefec4}{%
+           family={Vartakavi},
+           familyi={V\bibinitperiod},
+           given={Aneesh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c08083593f3f3ef07988646cf242b498}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Amanmeet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dublin, Ireland}%
+      }
+      \strng{namehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \strng{fullhash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \strng{bibnamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \strng{authorbibnamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \strng{authornamehash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \strng{authorfullhash}{aa6cf3d51d7c55ecd4f42114712fffd4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Vartakavi-Garg-Rafii - Audio Summarization for Podcasts - 2021 (poster).pdf}{(poster)}}
+      \field{booktitle}{29th European Signal Processing Conference}
+      \field{month}{8}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Vartakavi-Garg-Rafii - Audio Summarization for Podcasts - 2021.pdf}{Audio Summarization for Podcasts}}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_kim_sep2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=7ccc702c581108960f667138d68757cb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Bongjun},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome, Italy}%
+      }
+      \strng{namehash}{5629357c80262dd86854785009899b4b}
+      \strng{fullhash}{5629357c80262dd86854785009899b4b}
+      \strng{bibnamehash}{5629357c80262dd86854785009899b4b}
+      \strng{authorbibnamehash}{5629357c80262dd86854785009899b4b}
+      \strng{authornamehash}{5629357c80262dd86854785009899b4b}
+      \strng{authorfullhash}{5629357c80262dd86854785009899b4b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018 (poster).pdf}{(poster)}}
+      \field{booktitle}{26th European Signal Processing Conference}
+      \field{month}{9}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018}{Lossy Audio Compression Identification}}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_seetharaman_mar2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9ca0a5cbb68d4ccbe7dd5f81ca21acbf}{%
+           family={Seetharaman},
+           familyi={S\bibinitperiod},
+           given={Prem},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA, USA}%
+      }
+      \strng{namehash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \strng{fullhash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \strng{bibnamehash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \strng{authorbibnamehash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \strng{authornamehash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \strng{authorfullhash}{09f203fa83d39f08ec648cc53f53a8ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Seetharaman-Rafii - Cover Song Identification with 2D Fourier Transform Sequences - 2017 (poster).pdf}{(poster)}}
+      \field{booktitle}{42nd IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{3}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Seetharaman-Rafii - Cover Song Identification with 2D Fourier Transform Sequences - 2017}{Cover Song Identification with 2d Fourier Transform Sequences}}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_fitzgerald_mar2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA, USA}%
+      }
+      \strng{namehash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \strng{fullhash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \strng{bibnamehash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \strng{authorbibnamehash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \strng{authornamehash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \strng{authorfullhash}{3d1112ba4e40d345a6417ec5de8b4506}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017 (poster)}{(poster)}}
+      \field{booktitle}{42nd IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{3}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017}{User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections}}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_liutkus_feb2017}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fcb4b7e7887fec4474813ada82f3dd57}{%
+           family={Kitamura},
+           familyi={K\bibinitperiod},
+           given={Daichi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=510c2785028e06e03fba954f6ce6a33f}{%
+           family={Rivet},
+           familyi={R\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f30b7722619d99257ab8607dce03f15a}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Nobutaka},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0f0736951f627140a5d451fc0e2b6259}{%
+           family={Ono},
+           familyi={O\bibinitperiod},
+           given={Nobutaka},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bdc0cd4f53a4ad351a078bbba1ed382f}{%
+           family={Fontecave},
+           familyi={F\bibinitperiod},
+           given={Lujie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Grenoble, France}%
+      }
+      \strng{namehash}{cedadb54f52788522c9e6bb717609be5}
+      \strng{fullhash}{861043f45a983e327169f56b88d2f710}
+      \strng{bibnamehash}{cedadb54f52788522c9e6bb717609be5}
+      \strng{authorbibnamehash}{cedadb54f52788522c9e6bb717609be5}
+      \strng{authornamehash}{cedadb54f52788522c9e6bb717609be5}
+      \strng{authorfullhash}{861043f45a983e327169f56b88d2f710}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{13th International Conference on Latent Variable Analysis and Signal Separation}
+      \field{month}{2}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Stoter-Rafii-Kitamura-Rivet-Ito-Ono-Fontecave - The 2016 Signal Separation Evaluation Campaign - 2017}{The 2016 Signal Separation Evaluation Campaign}}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_ono_aug2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=0f0736951f627140a5d451fc0e2b6259}{%
+           family={Ono},
+           familyi={O\bibinitperiod},
+           given={Nobutaka},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fcb4b7e7887fec4474813ada82f3dd57}{%
+           family={Kitamura},
+           familyi={K\bibinitperiod},
+           given={Daichi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f30b7722619d99257ab8607dce03f15a}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Nobutaka},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Liberec, Czech Republic}%
+      }
+      \strng{namehash}{3d91e425baa6a789c368a4a480544c72}
+      \strng{fullhash}{f58206685b15b59d2e3f2cebc888b25f}
+      \strng{bibnamehash}{f58206685b15b59d2e3f2cebc888b25f}
+      \strng{authorbibnamehash}{f58206685b15b59d2e3f2cebc888b25f}
+      \strng{authornamehash}{3d91e425baa6a789c368a4a480544c72}
+      \strng{authorfullhash}{f58206685b15b59d2e3f2cebc888b25f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{12th International Conference on Latent Variable Analysis and Signal Separation}
+      \field{month}{8}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Ono-Rafii-Kitamura-Ito-Liutkus - The 2015 Signal Separation Evaluation Campaign - 2015}{The 2015 Signal Separation Evaluation Campaign}}
+      \field{year}{2015}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
