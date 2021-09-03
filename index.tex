@@ -14,9 +14,9 @@
     pdftitle={Zafar's website},
 }
 \usepackage{enumitem}
-
 \usepackage[style=ieee]{biblatex}
 \addbibresource{refs.bib}
+\usepackage{multimedia}
 
 \title{Ze Awesome French Audio Researcher (ZAFAR)}
 
@@ -52,7 +52,7 @@ Research, audio signal analysis, separation, recognition, classification
 \nocite{patent_coover_mar2020}
 \nocite{patent_pardo_jul2015}
 
-% Journal articles
+% Journal Articles
 \nocite{article_rafii_nov2018}
 \nocite{article_rafii_aug2018}
 \nocite{article_rafii_dec2014}
@@ -60,13 +60,40 @@ Research, audio signal analysis, separation, recognition, classification
 \nocite{article_rafii_jan2013}
 \nocite{article_sabin_jun2013}
 
-% Conference proceedings
+% Conference Proceedings
 \nocite{inproceedings_vartakavi_aug2021}
 \nocite{inproceedings_kim_sep2018}
 \nocite{inproceedings_seetharaman_mar2017}
 \nocite{inproceedings_fitzgerald_mar2017}
 \nocite{inproceedings_liutkus_feb2017}
 \nocite{inproceedings_ono_aug2015}
+\nocite{inproceedings_rafii_apr2015}
+\nocite{inproceedings_liutkus_apr2015}
+\nocite{inproceedings_fitzgerald_jun2014}
+\nocite{inproceedings_liutkus_may2014}
+\nocite{inproceedings_rafii_may2014}
+\nocite{inproceedings_rafii_nov2013}
+\nocite{inproceedings_rafii_may2013}
+\nocite{inproceedings_rafii_oct2012}
+\nocite{inproceedings_liutkus_mar2012}
+\nocite{inproceedings_cartwright_aug2011}
+\nocite{inproceedings_rafii_may2011}
+\nocite{inproceedings_rafii_may2011_2}
+\nocite{inproceedings_rafii_oct2009}
+
+% Chapter Books
+\nocite{inbook_pardo_2018}
+\nocite{inbook_rafii_2014}
+
+% Technical Reports
+\nocite{report_rafii_2009}
+
+% Talks
+\nocite{misc_mcdermott_oct2012}
+
+% Data Sets
+\nocite{online_rafii_2019}
+\nocite{online_rafii_2017}
 
 The proposed researcher is named Zafar Rafii. He received a PhD in electrical engineering and computer science from \href{https://www.northwestern.edu/}{Northwestern University} in 2014. He was with the \href{https://interactiveaudiolab.github.io/}{Interactive Audio Lab} under the supervision of professor Bryan Pardo. Prior to that, he was a research engineer at Audionamix, in France. He is now a research engineer manager in the Applied Research group at \href{https://www.gracenote.com/}{Gracenote}.
 
@@ -145,15 +172,17 @@ The Degenerate Unmixing Estimation Technique (DUET) is a blind source separation
 We proposed to improve peak/source separation in DUET by building the 2d histogram from an alternative time-frequency representation based on the constant-Q transform (CQT). Unlike the Fourier transform, the CQT has a logarithmic frequency resolution, mirroring the human auditory system and matching the geometrically spaced frequencies of the Western music scale, therefore better adapted to music mixtures. We also proposed other contributions to enhance DUET, such as adaptive boundaries for the 2d histogram to improve peak resolving when sources are spatially too close to each other, and Wiener filtering to improve source reconstruction. Experiments on mixtures of piano notes and harmonic sources showed that peak/source separation is overall improved, especially at low octaves (under 200 Hz) and for small mixing angles (under ${\pi}/{6}$ rad).
 
 Unlike the classic DUET based on the Fourier transform, DUET combined with the CQT can resolve adjacent pitches in low octaves as well as in high octaves thanks to the log frequency resolution of the CQT:
-%\begin{itemize}[noitemsep,topsep=0pt]
-%\item \href{https://www.meetup.com/bishbash/}{Mixture of 3 piano notes}
-%\item \href{Audio/DUET/A2_estimated.mp3}{Estimated A2}
-%\item \href{https://www.meetup.com/bishbash/}{Estimated Bb2}
-%\item \href{https://www.meetup.com/bishbash/}{Estimated B2}
-%\item \href{https://www.meetup.com/bishbash/}{Original A2}
-%\item \href{https://www.meetup.com/bishbash/}{Original Bb2}
-%\item \href{https://www.meetup.com/bishbash/}{Original B2}
-%\end{itemize}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/DUET/piano_mixture.mp3}{Mixture of 3 piano notes}
+\item \href{Audio/DUET/A2_estimated.mp3}{Estimated A2}
+\item \href{Audio/DUET/Bb2_estimated.mp3}{Estimated Bb2}
+\item \href{Audio/DUET/B2_estimated.mp3}{Estimated B2}
+\item \href{Audio/DUET/A2_original.mp3}{Original A2}
+\item \href{Audio/DUET/Bb2_original.mp3}{Original Bb2}
+\item \href{Audio/DUET/B2_original.mp3}{Original B2}
+\end{itemize}
+
+
 
 %\begin{figure}[ht]
 %\includemovie[poster,text={\small(Loading Video...)}]{6cm}{4cm}{Audio/DUET/A2_estimated.mp3}
@@ -175,6 +204,10 @@ For more information about this project, the reader is referred to ...
 \printbibliography[title={Patents},type=patent,heading=subbibnumbered]
 \printbibliography[title={Journal Articles},type=article,heading=subbibnumbered]
 \printbibliography[title={Conference Proceedings},type=inproceedings,heading=subbibnumbered]
+\printbibliography[title={Book Chapters},type=inbook,heading=subbibnumbered]
+\printbibliography[title={Technical Reports},type=report,heading=subbibnumbered]
+\printbibliography[title={Talks},type=misc,heading=subbibnumbered]
+\printbibliography[title={Data Sets},type=online,heading=subbibnumbered]
 
 %\bibliographystyle{IEEEbib}
 %\bibliography{refs}

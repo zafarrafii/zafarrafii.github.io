@@ -425,6 +425,7 @@
       \strng{authorbibnamehash}{d22e2807f61092ca761b79b3b8efb621}
       \strng{authornamehash}{4b7b2042081dbf9d1588b251616cdb4c}
       \strng{authorfullhash}{d22e2807f61092ca761b79b3b8efb621}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -538,6 +539,7 @@
       \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
       \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
       \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -835,6 +837,757 @@
       \field{month}{8}
       \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Ono-Rafii-Kitamura-Ito-Liutkus - The 2015 Signal Separation Evaluation Campaign - 2015}{The 2015 Signal Separation Evaluation Campaign}}
       \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_apr2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brisbane, QLD, Australia}%
+      }
+      \strng{namehash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \strng{fullhash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \strng{bibnamehash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \strng{authorbibnamehash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \strng{authornamehash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \strng{authorfullhash}{8fb0d9e6c7567ca8ec1d0639722c5c08}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015 (poster)}{(poster)}}
+      \field{booktitle}{40th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{4}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015}{A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds}}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_liutkus_apr2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brisbane, QLD, Australia}%
+      }
+      \strng{namehash}{2d8ad56a36354cb328c1e687c95a8104}
+      \strng{fullhash}{2d8ad56a36354cb328c1e687c95a8104}
+      \strng{bibnamehash}{2d8ad56a36354cb328c1e687c95a8104}
+      \strng{authorbibnamehash}{2d8ad56a36354cb328c1e687c95a8104}
+      \strng{authornamehash}{2d8ad56a36354cb328c1e687c95a8104}
+      \strng{authorfullhash}{2d8ad56a36354cb328c1e687c95a8104}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015 (slides)}{(slides)}}
+      \field{booktitle}{40th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{4}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015}{Scalable Audio Separation with Light Kernel Additive Modelling}}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_fitzgerald_jun2014}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b991f85af10b5ed0f4a588505388467b}{%
+           family={Daudet},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Limerick, Ireland}%
+      }
+      \strng{namehash}{b1fc9a207c1472189eb3b3d4f11c9d57}
+      \strng{fullhash}{050f2b20244ae36e12d981ad44c89af8}
+      \strng{bibnamehash}{050f2b20244ae36e12d981ad44c89af8}
+      \strng{authorbibnamehash}{050f2b20244ae36e12d981ad44c89af8}
+      \strng{authornamehash}{b1fc9a207c1472189eb3b3d4f11c9d57}
+      \strng{authorfullhash}{050f2b20244ae36e12d981ad44c89af8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{25th IET Irish Signals and Systems Conference}
+      \field{month}{6}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Liutkus-Rafii-Pardo-Daudet - Harmonic-Percussive Separation using Kernel Additive Modelling - 2014}{Harmonic/Percussive Separation using Kernel Additive Modelling}}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_liutkus_may2014}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=06f8f58081e1ab202eddcaadf9b4c1e0}{%
+           family={FitzGerald},
+           familyi={F\bibinitperiod},
+           given={Derry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b991f85af10b5ed0f4a588505388467b}{%
+           family={Daudet},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nancy, France}%
+      }
+      \strng{namehash}{fbfc32b1c17bb5470dafcbe4cae6283f}
+      \strng{fullhash}{0f2d6b652d006095d4536819df56f3c5}
+      \strng{bibnamehash}{0f2d6b652d006095d4536819df56f3c5}
+      \strng{authorbibnamehash}{0f2d6b652d006095d4536819df56f3c5}
+      \strng{authornamehash}{fbfc32b1c17bb5470dafcbe4cae6283f}
+      \strng{authorfullhash}{0f2d6b652d006095d4536819df56f3c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014 (slides)}{(slides)}}
+      \field{booktitle}{4th Joint Workshop on Hands-free Speech Communication Microphone Arrays}
+      \field{month}{5}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014}{Kernel Spectrogram Models for Source Separation}}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_may2014}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=10dc233bc7548c287d866fb666ba320a}{%
+           family={Coover},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a26fe5354c73ec9df716cf3258a13a29}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jinyu},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \strng{namehash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \strng{fullhash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \strng{bibnamehash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \strng{authorbibnamehash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \strng{authornamehash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \strng{authorfullhash}{b1dc1cd15f9f789b3df30b3f035baf2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014 (poster))}{(poster)}}
+      \field{booktitle}{39th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{5}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014}{An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques}}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_nov2013}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=075c4bf5be562a48181f2e5542509094}{%
+           family={Germain},
+           familyi={G\bibinitperiod},
+           given={Francois\bibnamedelima G.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=375d22721b293f4f6ad65fb26f9c27d4}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Dennis\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f332c6ccb8db9bbb57bb18f84877f741}{%
+           family={Mysore},
+           familyi={M\bibinitperiod},
+           given={Gautham\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Curutiba, PR, Brazil}%
+      }
+      \strng{namehash}{0b23722ca29692f3fb36a1d3732543c4}
+      \strng{fullhash}{9c4f9f398ae09fcb78b313500830535d}
+      \strng{bibnamehash}{9c4f9f398ae09fcb78b313500830535d}
+      \strng{authorbibnamehash}{9c4f9f398ae09fcb78b313500830535d}
+      \strng{authornamehash}{0b23722ca29692f3fb36a1d3732543c4}
+      \strng{authorfullhash}{9c4f9f398ae09fcb78b313500830535d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013 (poster)}{(poster)}}
+      \field{booktitle}{14th International Society for Music Information Retrieval}
+      \field{month}{11}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013}{Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures}}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_may2013}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, BC, Canada}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013 (poster)}{(poster)}}
+      \field{booktitle}{38th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{5}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013}{Online {REPET-SIM} for Real-time Speech Enhancement}}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_oct2012}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto, Portugal}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012 (slides)}{(slides)}}
+      \field{booktitle}{13th International Society for Music Information Retrieval}
+      \field{month}{10}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012}{Music/Voice Separation using the Similarity Matrix}}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_liutkus_mar2012}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0582b1f51ec419c2ae4bbcdba417d032}{%
+           family={Badeau},
+           familyi={B\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aec7d43f7c5ea1426c242ee4c14428fd}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Kyoto, Japan}%
+      }
+      \strng{namehash}{481edb9706c6a75153ac1be9d1b22d60}
+      \strng{fullhash}{37ce23bfcdb4fb6fd33772ababea1766}
+      \strng{bibnamehash}{37ce23bfcdb4fb6fd33772ababea1766}
+      \strng{authorbibnamehash}{37ce23bfcdb4fb6fd33772ababea1766}
+      \strng{authornamehash}{481edb9706c6a75153ac1be9d1b22d60}
+      \strng{authorfullhash}{37ce23bfcdb4fb6fd33772ababea1766}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012 (slides)}{(slides)}}
+      \field{booktitle}{37th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{3}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012}{Adaptive Filtering for Music/Voice Separation Exploiting the Repeating Musical Structure}}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_cartwright_aug2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=8aeab975280e4a1240315fc0e989af47}{%
+           family={Cartwright},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a26fe5354c73ec9df716cf3258a13a29}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jinyu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA}%
+      }
+      \strng{namehash}{bf9f672746488461d3d9ac0eaf825fa2}
+      \strng{fullhash}{8a6c1140a7d5c0c872cf1ed7dba38620}
+      \strng{bibnamehash}{8a6c1140a7d5c0c872cf1ed7dba38620}
+      \strng{authorbibnamehash}{8a6c1140a7d5c0c872cf1ed7dba38620}
+      \strng{authornamehash}{bf9f672746488461d3d9ac0eaf825fa2}
+      \strng{authorfullhash}{8a6c1140a7d5c0c872cf1ed7dba38620}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011 (poster)}{(poster)}}
+      \field{booktitle}{3rd Human Computation Workshop}
+      \field{month}{8}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011}{Making Searchable Melodies: Human vs. Machine}}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_may2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011 (poster)}{(poster)}}
+      \field{booktitle}{36th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{5}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011}{A Simple Music/Voice Separation Method based on the Extraction of the Repeating Musical Structure}}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_may2011_2}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011 (poster)}{(poster)}}
+      \field{booktitle}{36th IEEE International Conference on Acoustics, Speech and Signal Processing}
+      \field{month}{5}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011}{Degenerate Unmixing Estimation Technique using the Constant {Q} Transform}}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{inproceedings_rafii_oct2009}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Kobe, Japan}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009 (poster)}{(poster)}}
+      \field{booktitle}{10th International Society for Music Information Retrieval}
+      \field{month}{10}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009}{Learning to control a Reverberator using Subjective Perceptual Descriptors}}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{inbook_pardo_2018}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=67aa64f70405af0e3a1f0669b532bf33}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Zhiyao},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=844a89ec7a09ebe34e33775c9f2ac24a}{%
+           family={Springer},
+           familyi={S\bibinitperiod},
+           given={Heidelberg},
+           giveni={H\bibinitperiod},
+           suffix={Berlin},
+           suffixi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{fullhash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{bibnamehash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{authorbibnamehash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{authornamehash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{authorfullhash}{0140f9788a9eab8aa5071831145a65cc}
+      \strng{editorbibnamehash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \strng{editornamehash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \strng{editorfullhash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Systematic Musicology}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Other/Pardo-Rafii-Duan - Audio Source Separation in a Musical Context - 2018.pdf}{Audio Source Separation in a Musical Context}}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{inbook_rafii_2014}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=60c72b3a7d51c4d0ed31f6a068eadb3e}{%
+           family={Zafar\bibnamedelima Rafii},
+           familyi={Z\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Antoine\bibnamedelima Liutkus},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=844a89ec7a09ebe34e33775c9f2ac24a}{%
+           family={Springer},
+           familyi={S\bibinitperiod},
+           given={Heidelberg},
+           giveni={H\bibinitperiod},
+           suffix={Berlin},
+           suffixi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{fullhash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{bibnamehash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{authorbibnamehash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{authornamehash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{authorfullhash}{9ab598667a041404c3ebe7a744172c9a}
+      \strng{editorbibnamehash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \strng{editornamehash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \strng{editorfullhash}{844a89ec7a09ebe34e33775c9f2ac24a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Blind Source Separation}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Other/Rafii-Liutkus-Pardo - REPET for Background-Foreground Separation in Audio - 2014.pdf}{{REPET} for Background/Foreground Separation in Audio}}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{report_rafii_2009}{report}{}
+      \name{author}{2}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Northwestern University}%
+      }
+      \strng{namehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{fullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{bibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorbibnamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authornamehash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \strng{authorfullhash}{d00d7b2a228862ec2af765e1ed995ed2}
+      \field{extraname}{7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Other/Rafii-Pardo - A Digital Reverberator controlled through Measures of the Reverberation - 2009.pdf}{A Digital Reverberator controlled through Measures of the Reverberation}}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{misc_mcdermott_oct2012}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=e20ac8bc06095600b8bdbf6d3f9d5872}{%
+           family={McDermott},
+           familyi={M\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e6ea29d08bad3991b79aef093d0d3bd}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto, Portugal}%
+      }
+      \strng{namehash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \strng{fullhash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \strng{bibnamehash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \strng{authorbibnamehash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \strng{authornamehash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \strng{authorfullhash}{bbb4b15c77e1f123feb7e6b097ba792f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{13th International Society for Music Information Retrieval}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Presentations/McDermott-Pardo-Rafii - Leveraging Repetition to Parse the Auditory Scene - 2012}{Leveraging Repetition to Parse the Auditory Scene}}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{online_rafii_2019}{online}{}
+      \name{author}{5}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=a734fa336f902d632c711103b66c7bd0}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={Stylianos\bibnamedelima Ioannis},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=809f6c15915b8e65d6359f31ade32491}{%
+           family={Bittner},
+           familyi={B\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{fullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{bibnamehash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{authorbibnamehash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{authornamehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{authorfullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\href{https://doi.org/10.5281/zenodo.3338373}{{MUSDB18-HQ} – an uncompressed version of {MUSDB18}}}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{online_rafii_2017}{online}{}
+      \name{author}{5}{}{%
+        {{hash=6f9ad75cf1db810479c7c03ede5d6b8a}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={Zafar},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a94cac21598af7fd16ff450f667f6ddd}{%
+           family={Liutkus},
+           familyi={L\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f0bab58bfb39760fd46d5953261670c}{%
+           family={Stöter},
+           familyi={S\bibinitperiod},
+           given={Fabian-Robert},
+           giveni={F\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=a734fa336f902d632c711103b66c7bd0}{%
+           family={Mimilakis},
+           familyi={M\bibinitperiod},
+           given={Stylianos\bibnamedelima Ioannis},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=809f6c15915b8e65d6359f31ade32491}{%
+           family={Bittner},
+           familyi={B\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{fullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{bibnamehash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{authorbibnamehash}{f2c07f9edd64acf421bfcddc47c91943}
+      \strng{authornamehash}{4b7b2042081dbf9d1588b251616cdb4c}
+      \strng{authorfullhash}{f2c07f9edd64acf421bfcddc47c91943}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\href{https://doi.org/10.5281/zenodo.1117372}{The {MUSDB18} corpus for music separation}}
+      \field{year}{2019}
       \true{nocite}
     \endentry
   \enddatalist

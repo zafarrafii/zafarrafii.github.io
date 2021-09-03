@@ -2371,6 +2371,25 @@
     <bcf:citekey order="21" nocite="1">inproceedings_fitzgerald_mar2017</bcf:citekey>
     <bcf:citekey order="22" nocite="1">inproceedings_liutkus_feb2017</bcf:citekey>
     <bcf:citekey order="23" nocite="1">inproceedings_ono_aug2015</bcf:citekey>
+    <bcf:citekey order="24" nocite="1">inproceedings_rafii_apr2015</bcf:citekey>
+    <bcf:citekey order="25" nocite="1">inproceedings_liutkus_apr2015</bcf:citekey>
+    <bcf:citekey order="26" nocite="1">inproceedings_fitzgerald_jun2014</bcf:citekey>
+    <bcf:citekey order="27" nocite="1">inproceedings_liutkus_may2014</bcf:citekey>
+    <bcf:citekey order="28" nocite="1">inproceedings_rafii_may2014</bcf:citekey>
+    <bcf:citekey order="29" nocite="1">inproceedings_rafii_nov2013</bcf:citekey>
+    <bcf:citekey order="30" nocite="1">inproceedings_rafii_may2013</bcf:citekey>
+    <bcf:citekey order="31" nocite="1">inproceedings_rafii_oct2012</bcf:citekey>
+    <bcf:citekey order="32" nocite="1">inproceedings_liutkus_mar2012</bcf:citekey>
+    <bcf:citekey order="33" nocite="1">inproceedings_cartwright_aug2011</bcf:citekey>
+    <bcf:citekey order="34" nocite="1">inproceedings_rafii_may2011</bcf:citekey>
+    <bcf:citekey order="35" nocite="1">inproceedings_rafii_may2011_2</bcf:citekey>
+    <bcf:citekey order="36" nocite="1">inproceedings_rafii_oct2009</bcf:citekey>
+    <bcf:citekey order="37" nocite="1">inbook_pardo_2018</bcf:citekey>
+    <bcf:citekey order="38" nocite="1">inbook_rafii_2014</bcf:citekey>
+    <bcf:citekey order="39" nocite="1">report_rafii_2009</bcf:citekey>
+    <bcf:citekey order="40" nocite="1">misc_mcdermott_oct2012</bcf:citekey>
+    <bcf:citekey order="41" nocite="1">online_rafii_2019</bcf:citekey>
+    <bcf:citekey order="42" nocite="1">online_rafii_2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
