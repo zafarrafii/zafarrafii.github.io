@@ -154,7 +154,8 @@ For this study, we focused on reverberation effects. We developed a digital reve
 \label{fig:reverb}
 \end{figure}
 
-For more information about this project, the reader is referred to ...
+For more information about this project, the reader is referred to \cite{article_sabin_jun2013}, \cite{inproceedings_rafii_oct2009}, and 
+\cite{report_rafii_2009}.
 
 
 \subsection{DUET using the CQT (2011)}
@@ -174,21 +175,18 @@ We proposed to improve peak/source separation in DUET by building the 2d histogr
 Unlike the classic DUET based on the Fourier transform, DUET combined with the CQT can resolve adjacent pitches in low octaves as well as in high octaves thanks to the log frequency resolution of the CQT:
 \begin{itemize}[noitemsep,topsep=0pt]
 \item \href{Audio/DUET/piano_mixture.mp3}{Mixture of 3 piano notes}
-\item \href{Audio/DUET/A2_estimated.mp3}{Estimated A2}
-\item \href{Audio/DUET/Bb2_estimated.mp3}{Estimated Bb2}
-\item \href{Audio/DUET/B2_estimated.mp3}{Estimated B2}
-\item \href{Audio/DUET/A2_original.mp3}{Original A2}
-\item \href{Audio/DUET/Bb2_original.mp3}{Original Bb2}
-\item \href{Audio/DUET/B2_original.mp3}{Original B2}
+\item Estimates: \href{Audio/DUET/A2_estimated.mp3}{A2} - \href{Audio/DUET/Bb2_estimated.mp3}{Bb2} -  \href{Audio/DUET/B2_estimated.mp3}{B2}
+\item Originals: \href{Audio/DUET/A2_original.mp3}{A2} - \href{Audio/DUET/Bb2_original.mp3}{Bb2} - \href{Audio/DUET/B2_original.mp3}{B2}
 \end{itemize}
 
+DUET combined with the CQT and adaptive boundaries helps to improve separation when sources have low pitches (for example, here, between the two cellos) and/or are spatially too close to each other:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/DUET/instruments_mixture.mp3}{Mixture of 4 instruments}
+\item Estimates: \href{Audio/DUET/cello1_estimated.mp3}{cello 1} - \href{Audio/DUET/cello2_estimated.mp3}{cello 2} - \href{Audio/DUET/flute_estimated.mp3}{flute} - \href{Audio/DUET/strings_estimated.mp3}{strings}
+\item Originals: \href{Audio/DUET/cello1_original.mp3}{cello 1} - \href{Audio/DUET/cello2_original.mp3}{cello 2} - \href{Audio/DUET/flute_original.mp3}{flute} - \href{Audio/DUET/strings_original.mp3}{strings}
+\end{itemize}
 
-
-%\begin{figure}[ht]
-%\includemovie[poster,text={\small(Loading Video...)}]{6cm}{4cm}{Audio/DUET/A2_estimated.mp3}
-%\end{figure}
-
-For more information about this project, the reader is referred to ...
+For more information about this project, the reader is referred to \cite{inproceedings_rafii_may2011_2}.
 
 
 \section{REPET}

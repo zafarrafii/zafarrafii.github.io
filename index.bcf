@@ -2390,6 +2390,10 @@
     <bcf:citekey order="40" nocite="1">misc_mcdermott_oct2012</bcf:citekey>
     <bcf:citekey order="41" nocite="1">online_rafii_2019</bcf:citekey>
     <bcf:citekey order="42" nocite="1">online_rafii_2017</bcf:citekey>
+    <bcf:citekey order="43">article_sabin_jun2013</bcf:citekey>
+    <bcf:citekey order="44">inproceedings_rafii_oct2009</bcf:citekey>
+    <bcf:citekey order="45">report_rafii_2009</bcf:citekey>
+    <bcf:citekey order="46">inproceedings_rafii_may2011_2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

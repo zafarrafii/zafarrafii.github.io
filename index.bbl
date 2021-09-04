@@ -386,7 +386,7 @@
       \field{journaltitle}{IEEE Signal Processing Magazine}
       \field{month}{11}
       \field{number}{6}
-      \field{title}{\href{Journals/Rafii - Sliding Discrete Fourier Transform with Kernel Windowing - 2018}{Sliding Discrete Fourier Transform with Kernel Windowing}}
+      \field{title}{\href{Journals/Rafii - Sliding Discrete Fourier Transform with Kernel Windowing - 2018.pdf}{Sliding Discrete Fourier Transform with Kernel Windowing}}
       \field{volume}{35}
       \field{year}{2018}
       \true{nocite}
@@ -515,7 +515,7 @@
       \field{journaltitle}{IEEE Transactions on Signal Processing}
       \field{month}{8}
       \field{number}{16}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Liutkus-FitzGerald-Rafii-Pardo-Daudet - Kernel Additive Models for Source Separation - 2014}{Kernel Additive Models for Source Separation}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Liutkus-FitzGerald-Rafii-Pardo-Daudet - Kernel Additive Models for Source Separation - 2014.pdf}{Kernel Additive Models for Source Separation}}
       \field{volume}{62}
       \field{year}{2014}
       \true{nocite}
@@ -547,7 +547,7 @@
       \field{journaltitle}{IEEE Transactions on Audio, Speech, and Language Processing}
       \field{month}{1}
       \field{number}{1}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Rafii-Pardo - REpeating Pattern Extraction Technique (REPET) A Simple Method for Music-Voice Separation - 2013}{REpeating Pattern Extraction Technique ({REPET}): A Simple Method for Music/Voice Separation}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Rafii-Pardo - REpeating Pattern Extraction Technique (REPET) A Simple Method for Music-Voice Separation - 2013.pdf}{REpeating Pattern Extraction Technique ({REPET}): A Simple Method for Music/Voice Separation}}
       \field{volume}{21}
       \field{year}{2013}
       \true{nocite}
@@ -583,10 +583,9 @@
       \field{journaltitle}{Journal of the Audio Engineering Society}
       \field{month}{6}
       \field{number}{6}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Sabin-Rafii-Pardo - Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters - 2011}{Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Journals/Sabin-Rafii-Pardo - Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters - 2011.pdf}{Weighting-Function-Based Rapid Mapping of Descriptors to Audio Processing Parameters}}
       \field{volume}{59}
       \field{year}{2011}
-      \true{nocite}
     \endentry
     \entry{inproceedings_vartakavi_aug2021}{inproceedings}{}
       \name{author}{3}{}{%
@@ -655,7 +654,7 @@
       \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018 (poster).pdf}{(poster)}}
       \field{booktitle}{26th European Signal Processing Conference}
       \field{month}{9}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018}{Lossy Audio Compression Identification}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018.pdf}{Lossy Audio Compression Identification}}
       \field{year}{2018}
       \true{nocite}
     \endentry
@@ -688,7 +687,7 @@
       \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Seetharaman-Rafii - Cover Song Identification with 2D Fourier Transform Sequences - 2017 (poster).pdf}{(poster)}}
       \field{booktitle}{42nd IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{3}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Seetharaman-Rafii - Cover Song Identification with 2D Fourier Transform Sequences - 2017}{Cover Song Identification with 2d Fourier Transform Sequences}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Seetharaman-Rafii - Cover Song Identification with 2D Fourier Transform Sequences - 2017.pdf}{Cover Song Identification with 2d Fourier Transform Sequences}}
       \field{year}{2017}
       \true{nocite}
     \endentry
@@ -723,10 +722,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017 (poster).pdf}{(poster)}}
       \field{booktitle}{42nd IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{3}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017}{User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Rafii-Liutkus - User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections - 2017.pdf}{User Assisted Separation of Repeating Patterns in Time and Frequency using Magnitude Projections}}
       \field{year}{2017}
       \true{nocite}
     \endentry
@@ -788,7 +787,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{13th International Conference on Latent Variable Analysis and Signal Separation}
       \field{month}{2}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Stoter-Rafii-Kitamura-Rivet-Ito-Ono-Fontecave - The 2016 Signal Separation Evaluation Campaign - 2017}{The 2016 Signal Separation Evaluation Campaign}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Stoter-Rafii-Kitamura-Rivet-Ito-Ono-Fontecave - The 2016 Signal Separation Evaluation Campaign - 2017.pdf}{The 2016 Signal Separation Evaluation Campaign}}
       \field{year}{2017}
       \true{nocite}
     \endentry
@@ -835,7 +834,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{12th International Conference on Latent Variable Analysis and Signal Separation}
       \field{month}{8}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Ono-Rafii-Kitamura-Ito-Liutkus - The 2015 Signal Separation Evaluation Campaign - 2015}{The 2015 Signal Separation Evaluation Campaign}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Ono-Rafii-Kitamura-Ito-Liutkus - The 2015 Signal Separation Evaluation Campaign - 2015.pdf}{The 2015 Signal Separation Evaluation Campaign}}
       \field{year}{2015}
       \true{nocite}
     \endentry
@@ -870,10 +869,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015 (poster).pdf}{(poster)}}
       \field{booktitle}{40th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{4}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015}{A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Liutkus-Pardo - A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds - 2015.pdf}{A Simple User Interface System for Recovering Patterns Repeating in Time and Frequency in Mixtures of Sounds}}
       \field{year}{2015}
       \true{nocite}
     \endentry
@@ -908,10 +907,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015 (slides)}{(slides)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015 (slides).pdf}{(slides)}}
       \field{booktitle}{40th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{4}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015}{Scalable Audio Separation with Light Kernel Additive Modelling}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-FitzGerald-Rafii - Scalable Audio Separation with Light Kernel Additive Modelling - 2015.pdf}{Scalable Audio Separation with Light Kernel Additive Modelling}}
       \field{year}{2015}
       \true{nocite}
     \endentry
@@ -958,7 +957,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{25th IET Irish Signals and Systems Conference}
       \field{month}{6}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Liutkus-Rafii-Pardo-Daudet - Harmonic-Percussive Separation using Kernel Additive Modelling - 2014}{Harmonic/Percussive Separation using Kernel Additive Modelling}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/FitzGerald-Liutkus-Rafii-Pardo-Daudet - Harmonic-Percussive Separation using Kernel Additive Modelling - 2014.pdf}{Harmonic/Percussive Separation using Kernel Additive Modelling}}
       \field{year}{2014}
       \true{nocite}
     \endentry
@@ -1003,10 +1002,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014 (slides)}{(slides)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014 (slides).pdf}{(slides)}}
       \field{booktitle}{4th Joint Workshop on Hands-free Speech Communication Microphone Arrays}
       \field{month}{5}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014}{Kernel Spectrogram Models for Source Separation}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Pardo-FitzGerald-Daudet - Kernel Spectrogram Models for Source Separation - 2014.pdf}{Kernel Spectrogram Models for Source Separation}}
       \field{year}{2014}
       \true{nocite}
     \endentry
@@ -1041,10 +1040,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014 (poster))}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014 (poster).pdf}{(poster)}}
       \field{booktitle}{39th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{5}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014}{An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014.pdf}{An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques}}
       \field{year}{2014}
       \true{nocite}
     \endentry
@@ -1084,10 +1083,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013 (poster).pdf}{(poster)}}
       \field{booktitle}{14th International Society for Music Information Retrieval}
       \field{month}{11}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013}{Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Germain-Sun-Mysore - Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures - 2013.pdf}{Combining Modeling of Singing Voice and Background Music for Automatic Separation of Musical Mixtures}}
       \field{year}{2013}
       \true{nocite}
     \endentry
@@ -1118,10 +1117,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013 (poster).pdf}{(poster)}}
       \field{booktitle}{38th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{5}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013}{Online {REPET-SIM} for Real-time Speech Enhancement}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Online REPET-SIM for Real-time Speech Enhancement - 2013.pdf}{Online {REPET-SIM} for Real-time Speech Enhancement}}
       \field{year}{2013}
       \true{nocite}
     \endentry
@@ -1152,10 +1151,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012 (slides)}{(slides)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012 (slides).pdf}{(slides)}}
       \field{booktitle}{13th International Society for Music Information Retrieval}
       \field{month}{10}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012}{Music/Voice Separation using the Similarity Matrix}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Music-Voice Separation using the Similarity Matrix - 2012.pdf}{Music/Voice Separation using the Similarity Matrix}}
       \field{year}{2012}
       \true{nocite}
     \endentry
@@ -1200,10 +1199,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012 (slides)}{(slides)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012 (slides).pdf}{(slides)}}
       \field{booktitle}{37th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{3}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012}{Adaptive Filtering for Music/Voice Separation Exploiting the Repeating Musical Structure}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Liutkus-Rafii-Badeau-Pardo-Richard - Adaptive Filtering for Music-Voice Separation Exploiting the Repeating Musical Structure - 2012.pdf}{Adaptive Filtering for Music/Voice Separation Exploiting the Repeating Musical Structure}}
       \field{year}{2012}
       \true{nocite}
     \endentry
@@ -1243,10 +1242,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011 (poster).pdf}{(poster)}}
       \field{booktitle}{3rd Human Computation Workshop}
       \field{month}{8}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011}{Making Searchable Melodies: Human vs. Machine}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Cartwright-Rafii-Han-Pardo - Making Searchable Melodies Human vs. Machine - 2011.pdf}{Making Searchable Melodies: Human vs. Machine}}
       \field{year}{2011}
       \true{nocite}
     \endentry
@@ -1277,10 +1276,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011 (poster).pdf}{(poster)}}
       \field{booktitle}{36th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{5}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011}{A Simple Music/Voice Separation Method based on the Extraction of the Repeating Musical Structure}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - A Simple Music-Voice Separation Method based on the Extraction of the Repeating Musical Structure - 2011.pdf}{A Simple Music/Voice Separation Method based on the Extraction of the Repeating Musical Structure}}
       \field{year}{2011}
       \true{nocite}
     \endentry
@@ -1311,10 +1310,10 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011 (poster)}{(poster)}}
+      \field{addendum}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011 (poster).pdf}{(poster)}}
       \field{booktitle}{36th IEEE International Conference on Acoustics, Speech and Signal Processing}
       \field{month}{5}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011}{Degenerate Unmixing Estimation Technique using the Constant {Q} Transform}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011.pdf}{Degenerate Unmixing Estimation Technique using the Constant {Q} Transform}}
       \field{year}{2011}
       \true{nocite}
     \endentry
@@ -1345,12 +1344,11 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009 (poster)}{(poster)}}
+      \field{addendum}{\href{Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009 (poster).pdf}{(poster)}}
       \field{booktitle}{10th International Society for Music Information Retrieval}
       \field{month}{10}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009}{Learning to control a Reverberator using Subjective Perceptual Descriptors}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Learning to Control a Reverberator using Subjective Perceptual Descriptors - 2009.pdf}{Learning to control a Reverberator using Subjective Perceptual Descriptors}}
       \field{year}{2009}
-      \true{nocite}
     \endentry
     \entry{inbook_pardo_2018}{inbook}{}
       \name{author}{3}{}{%
@@ -1466,7 +1464,6 @@
       \field{labeltitlesource}{title}
       \field{title}{\href{http://www.zafarrafii.com/Documents/Other/Rafii-Pardo - A Digital Reverberator controlled through Measures of the Reverberation - 2009.pdf}{A Digital Reverberator controlled through Measures of the Reverberation}}
       \field{year}{2009}
-      \true{nocite}
     \endentry
     \entry{misc_mcdermott_oct2012}{misc}{}
       \name{author}{3}{}{%
@@ -1500,7 +1497,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{13th International Society for Music Information Retrieval}
-      \field{title}{\href{http://www.zafarrafii.com/Documents/Presentations/McDermott-Pardo-Rafii - Leveraging Repetition to Parse the Auditory Scene - 2012}{Leveraging Repetition to Parse the Auditory Scene}}
+      \field{title}{\href{http://www.zafarrafii.com/Documents/Presentations/McDermott-Pardo-Rafii - Leveraging Repetition to Parse the Auditory Scene - 2012.pdf}{Leveraging Repetition to Parse the Auditory Scene}}
       \field{year}{2012}
       \true{nocite}
     \endentry
