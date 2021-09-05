@@ -389,7 +389,6 @@
       \field{title}{\href{Journals/Rafii - Sliding Discrete Fourier Transform with Kernel Windowing - 2018.pdf}{Sliding Discrete Fourier Transform with Kernel Windowing}}
       \field{volume}{35}
       \field{year}{2018}
-      \true{nocite}
     \endentry
     \entry{article_rafii_aug2018}{article}{}
       \name{author}{5}{}{%
@@ -656,7 +655,6 @@
       \field{month}{9}
       \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Kim-Rafii - Lossy Audio Compression Identification - 2018.pdf}{Lossy Audio Compression Identification}}
       \field{year}{2018}
-      \true{nocite}
     \endentry
     \entry{inproceedings_seetharaman_mar2017}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1045,7 +1043,6 @@
       \field{month}{5}
       \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Coover-Han - An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques - 2014.pdf}{An Audio Fingerprinting System for Live Version Identification using Image Processing Techniques}}
       \field{year}{2014}
-      \true{nocite}
     \endentry
     \entry{inproceedings_rafii_nov2013}{inproceedings}{}
       \name{author}{4}{}{%
@@ -1315,7 +1312,6 @@
       \field{month}{5}
       \field{title}{\href{http://www.zafarrafii.com/Documents/Conferences/Rafii-Pardo - Degenerate Unmixing Estimation Technique using the Constant Q Transform - 2011.pdf}{Degenerate Unmixing Estimation Technique using the Constant {Q} Transform}}
       \field{year}{2011}
-      \true{nocite}
     \endentry
     \entry{inproceedings_rafii_oct2009}{inproceedings}{}
       \name{author}{2}{}{%

@@ -2394,6 +2394,17 @@
     <bcf:citekey order="44">inproceedings_rafii_oct2009</bcf:citekey>
     <bcf:citekey order="45">report_rafii_2009</bcf:citekey>
     <bcf:citekey order="46">inproceedings_rafii_may2011_2</bcf:citekey>
+    <bcf:citekey order="47">inproceedings_rafii_may2014</bcf:citekey>
+    <bcf:citekey order="48">inproceedings_kim_sep2018</bcf:citekey>
+    <bcf:citekey order="49">article_rafii_nov2018</bcf:citekey>
+    <bcf:citekey order="50">inproceedings_rafii_may2011</bcf:citekey>
+    <bcf:citekey order="51">article_rafii_jan2013</bcf:citekey>
+    <bcf:citekey order="52">inbook_rafii_2014</bcf:citekey>
+    <bcf:citekey order="53">inproceedings_liutkus_mar2012</bcf:citekey>
+    <bcf:citekey order="54">inbook_rafii_2014</bcf:citekey>
+    <bcf:citekey order="55">inproceedings_rafii_oct2012</bcf:citekey>
+    <bcf:citekey order="56">inproceedings_rafii_may2013</bcf:citekey>
+    <bcf:citekey order="57">inbook_rafii_2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

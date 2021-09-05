@@ -189,9 +189,162 @@ DUET combined with the CQT and adaptive boundaries helps to improve separation w
 For more information about this project, the reader is referred to \cite{inproceedings_rafii_may2011_2}.
 
 
+\subsection{Live Music Fingerprinting (2014)}
+\label{ssec:live} 
+
+Suppose that you are at a music festival checking on an artist, and you would like to quickly know about the song that is being played (e.g., title, lyrics, album, etc.). If you have a smartphone, you could record a sample of the live performance and compare it against a database of existing recordings from the artist. Services such as Shazam or SoundHound will not work here, as this is not the typical framework for audio fingerprinting or query-by-humming systems, as a live performance is neither identical to its studio version (e.g., variations in instrumentation, key, tempo, etc.) nor it is a hummed or sung melody. We propose an audio fingerprinting system that can deal with live version identification by using image processing techniques. Compact fingerprints are derived using a log-frequency spectrogram and an adaptive thresholding method, and template matching is performed using the Hamming similarity and the Hough Transform.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/thresholding.png}
+\caption{Overview of the fingerprinting stage. The audio signal is first transformed into a log-frequency spectrogram by using the CQT. The CQT-based spectrogram is then transformed into a binary image by using an adaptive thresholding method.}
+\label{fig:thresholding}
+\end{figure}
+
+For more information about this project, the reader is referred to \cite{inproceedings_rafii_may2014}.
+
+
+\subsection{Lossy Audio Compression Identification (2018)}
+\label{ssec:compression}
+
+We propose a system which can estimate from an audio recording that has previously undergone lossy compression the parameters used for the encoding, and therefore identify the corresponding lossy coding format. The system analyzes the audio signal and searches for the compression parameters and framing conditions which match those used for the encoding. In particular, we propose a new metric for measuring traces of compression which is robust to variations in the audio content and a new method for combining the estimates from multiple audio blocks which can refine the results. We evaluated this system with audio excerpts from songs and movies, compressed into various coding formats, using different bit rates, and captured digitally as well as through analog transfer. Results showed that our system can identify the correct format in almost all cases, even at high bitrates and with distorted audio, with an overall accuracy of 0.96.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/compression.png}
+\caption{Results for an audio example encoded with AC-3. The system identified traces of compression corresponding to AC-3, but not to other lossy coding formats such as MP3, AAC, Vorbis, or WMA.}
+\label{fig:compression}
+\end{figure}
+
+For more information about this project, the reader is referred to \cite{inproceedings_kim_sep2018}.
+
+
+\subsection{Sliding DFT with Kernel Windowing (2018)}
+\label{ssec:sdft}
+
+The sliding discrete Fourier transform (SDFT) is an efficient method for computing the N-point DFT of a given signal starting at a given sample from the N-point DFT of the same signal starting at the previous sample. However, the SDFT does not allow the use of a window function, generally incorporated in the computation of the DFT to reduce spectral leakage, as it would break its sliding property. We show how windowing can be included in the SDFT by using a kernel derived from the window function, while keeping the process computationally efficient. In addition, this approach allows for turning other transforms, such as the modified discrete cosine transform (MDCT), into efficient sliding versions of themselves.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/kernels.png}
+\caption{Kernels derived from the (a) Hanning, (b) Blackman, (c) triangular, (d) Parzen, (e) Gaussian (with $\alpha$ = 2.5), and (f) Kaiser (with $\beta$ = 0.5) windows. The kernels were derived for an N-point DFT where N = 2,048 samples. Only the first 100 coefficients at the bottom-left corner of the N-by-N kernels are shown. The values are displayed in log of amplitude.}
+\label{fig:kernels}
+\end{figure}
+
+For more information about this project, the reader is referred to \cite{article_rafii_nov2018}.
+
+
 \section{REPET}
 \label{sec:repet}
 
+Repetition is a fundamental element in generating and perceiving structure. In audio, mixtures are often composed of structures where a repeating background signal is superimposed with a varying foreground signal. On this basis, we present the REpeating Pattern Extraction Technique (REPET), a simple approach for separating the repeating background from the non-repeating foreground in an audio mixture. The basic idea is to find the repeating elements in the mixture, derive the underlying repeating models, and extract the repeating background by comparing the models to the mixture. Unlike other separation approaches, REPET does not depend on special parameterizations, does not rely on complex frameworks, and does not require external information. Because it is only based on repetition, it has the advantage of being simple, fast, blind, and therefore completely and easily automatable.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet.png}
+\caption{Overview of REPET.}
+\label{fig:repet}
+\end{figure}
+
+\subsection{Original REPET (2011)}
+\label{ssec:repet_original}
+
+The original REPET aims at identifying and extracting the repeating patterns in an audio mixture, by estimating a period of the underlying repeating structure and modeling a segment of the periodically repeating background.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_original_overview.png}
+\caption{Overview of the original REPET. Stage 1: calculation of the beat spectrum b and estimation of a repeating period p. Stage 2: segmentation of the mixture spectrogram V and calculation of the repeating segment S. Stage 3: calculation of the repeating spectrogram W and derivation of the time-frequency mask M.}
+\label{fig:repet_original_overview}
+\end{figure}
+
+Experiments on a data set of song clips showed that REPET can be effectively applied for music/voice separation. Experiments also showed that REPET can be combined with other methods to improve background/foreground separation; for example, it can be used as a preprocessor to pitch detection algorithms to improve melody extraction, or as a postprocessor to a singing voice separation algorithm to improve music/voice separation.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_original_example.png}
+\caption{Music/voice separation using REPET. The mixture is a female singer (foreground) singing over a guitar accompaniment (background). The guitar has a repeating chord progression that is stable along the song. The spectrograms and the mask are shown for 5 seconds and up to 2.5 kHz.}
+\label{fig:repet_original_example}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/REPET/dev1__tamy-que_pena_tanto_faz__snip_6_19__mix.wav}{Mixture}
+\item Estimates: \href{Audio/REPET/dev1__tamy-que_pena_tanto_faz__snip_6_19__mix_background.wav}{background} - \href{Audio/REPET/dev1__tamy-que_pena_tanto_faz__snip_6_19__mix_foreground.wav}{foreground}
+\item Originals: \href{Audio/REPET/dev1__tamy-que_pena_tanto_faz__snip_6_19__guitar.wav}{accompaniment} - \href{Audio/REPET/dev1__tamy-que_pena_tanto_faz__snip_6_19__vocals.wav}{vocals}
+\end{itemize}
+
+REPET can be easily extended to handle varying repeating structures, by simply applying the method along time, on individual segments or via a sliding window. Experiments on a data set of full-track real-world songs showed that this method can be effectively applied for music/voice separation.
+
+For more information about this project, the reader is referred to \cite{inproceedings_rafii_may2011}, \cite{article_rafii_jan2013}, and \cite{inbook_rafii_2014}.
+
+
+\subsection{Adaptive REPET (2012)}
+\label{ssec:repet_adaptive}
+
+The original REPET works well when the repeating background is relatively stable (e.g., a verse or the chorus in a song); however, the repeating background can also vary over time (e.g., a verse followed by the chorus in the song). The adaptive REPET is an extension of the original REPET that can handle varying repeating structures, by estimating the time-varying repeating periods and extracting the repeating background locally, without the need for segmentation or windowing.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_adaptive_overview.png}
+\caption{Overview of the adaptive REPET. Stage 1: calculation of the beat spectrogram B and estimation of the repeating periods pj’s. Stage 2: filtering of the mixture spectrogram V and calculation of an initial repeating spectrogram U. Stage 3: calculation of the refined repeating spectrogram W and derivation of the time-frequency mask M.}
+\label{fig:repet_adaptive_overview}
+\end{figure}
+
+Experiments on a data set of full-track real-world songs showed that the adaptive REPET can be effectively applied for music/voice separation.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_adaptive_example.png}
+\caption{Music/voice separation using the adaptive REPET. The mixture is a male singer (foreground) singing over a guitar and drums accompaniment (background). The guitar has a repeating chord progression that changes around 15 seconds. The spectrograms and the mask are shown for 5 seconds and up to 2.5 kHz.}
+\label{fig:repet_adaptive_example}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/REPET/dev2__another_dreamer-the_ones_we_love__snip_69_94__mix.wav}{Mixture}
+\item Estimates: \href{Audio/REPET/dev2__another_dreamer-the_ones_we_love__snip_69_94__mix_background.wav}{background} - \href{Audio/REPET/dev2__another_dreamer-the_ones_we_love__snip_69_94__mix_foreground.wav}{foreground}
+\item Originals: \href{Audio/REPET/dev2__another_dreamer-the_ones_we_love__snip_69_94__mix-vocals.wav}{accompaniment} - \href{Audio/REPET/dev2__another_dreamer-the_ones_we_love__snip_69_94__vocals.wav}{vocals}
+\end{itemize}
+
+For more information about this project, the reader is referred to \cite{inproceedings_liutkus_mar2012} and \cite{inbook_rafii_2014}.
+
+
+\subsection{REPET-SIM (2012)}
+\label{ssec:repet_sim}
+
+The REPET methods work well when the repeating background has periodically repeating patterns (e.g., jackhammer noise); however, the repeating patterns can also happen intermittently or without a global or local periodicity (e.g., frogs by a pond). REPET-SIM is a generalization of REPET that can also handle non-periodically repeating structures, by using a similarity matrix to identify the repeating elements.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_sim_overview.png}
+\caption{Overview of REPET-SIM. Stage 1: calculation of the similarity matrix S and estimation of the repeating indices jk’s. Stage 2: filtering of the mixture spectrogram V and calculation of an initial repeating spectrogram U. Stage 3: calculation of the refined repeating spectrogram W and derivation of the time-frequency mask M.}
+\label{fig:repet_sim_overview}
+\end{figure}
+
+Experiments on a data set of full-track real-world songs showed that REPET-SIM can be effectively applied for music/voice separation.
+
+REPET-SIM can be easily implemented online to handle real-time computing, particularly for real-time speech enhancement. The online REPET-SIM simply processes the time frames of the mixture one after the other given a buffer that temporally stores past frames. Experiments on a data set of two-channel mixtures of one speech source and real-world background noise showed that the online REPET-SIM can be effectively applied for real-time speech enhancement.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_sim_example.png}
+\caption{Noise/speech separation using REPET-SIM. The mixture is a female speaker (foreground) speaking in a town square (background). The square has repeating noisy elements (passers-by and cars) that happen intermittently. The spectrograms and the mask are shown for 5 seconds and up to 2 kHz.}
+\label{fig:repet_sim_example}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/REPET/dev_Sq1_Co_B_mix.wav}{Mixture}
+\item Estimates: \href{Audio/REPET/dev_Sq1_Co_B_mix_foreground.wav}{foreground} - \href{Audio/REPET/dev_Sq1_Co_B_mix_background.wav}{background}
+\item Originals: \href{Audio/REPET/dev_Sq1_Co_B_sim.wav}{speech} - \href{Audio/REPET/dev_Sq1_Co_B_noi.wav}{noise}
+\end{itemize}
+
+For more information about this project, the reader is referred to \cite{inproceedings_rafii_oct2012}, \cite{inproceedings_rafii_may2013}, and \cite{inbook_rafii_2014}.
+
+
+\subsection{uREPET (2015)}
+\label{ssec:urepet}
+
+\subsection{PROJET-MAG (2017)}
+\label{ssec:projet-mag}
 
 \section{Codes}
 \label{sec:codes}

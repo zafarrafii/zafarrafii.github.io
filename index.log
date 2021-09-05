@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  3 SEP 2021 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  5 SEP 2021 00:18
 entering extended mode
 **./index.tex
 (index.tex
@@ -687,7 +687,7 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
 (C:\Users\zarafii2001\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Images/zafar.jpg, id=63, 150.5625pt x 150.5625pt>
+<Images/zafar.jpg, id=95, 150.5625pt x 150.5625pt>
 File: Images/zafar.jpg Graphic file (type jpg)
 <use Images/zafar.jpg>
 Package pdftex.def Info: Images/zafar.jpg  used on input line 102.
@@ -701,12 +701,12 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
  <./Images/zafar.jpg>]
-<Images/reverberation.jpg, id=89, 574.39594pt x 310.91156pt>
+<Images/reverberation.jpg, id=121, 574.39594pt x 310.91156pt>
 File: Images/reverberation.jpg Graphic file (type jpg)
 <use Images/reverberation.jpg>
 Package pdftex.def Info: Images/reverberation.jpg  used on input line 152.
 (pdftex.def)             Requested size: 244.6937pt x 132.4464pt.
-<Images/duet.png, id=93, 1158.3275pt x 621.32124pt>
+<Images/duet.png, id=125, 1158.3275pt x 621.32124pt>
 File: Images/duet.png Graphic file (type png)
 <use Images/duet.png>
 Package pdftex.def Info: Images/duet.png  used on input line 168.
@@ -715,6 +715,72 @@ Package pdftex.def Info: Images/duet.png  used on input line 168.
 Underfull \hbox (badness 1205) in paragraph at lines 173--174
 \OT1/ptm/m/n/10 by build-ing the 2d his-togram from an al-ter-na-tive time-
  []
+
+[2 <./Images/reverberation.jpg> <./Images/duet.png>]
+<Images/thresholding.png, id=155, 963.6pt x 901.3675pt>
+File: Images/thresholding.png Graphic file (type png)
+<use Images/thresholding.png>
+Package pdftex.def Info: Images/thresholding.png  used on input line 199.
+(pdftex.def)             Requested size: 244.6937pt x 228.88977pt.
+<Images/compression.png, id=158, 1455.18657pt x 949.29657pt>
+File: Images/compression.png Graphic file (type png)
+<use Images/compression.png>
+Package pdftex.def Info: Images/compression.png  used on input line 214.
+(pdftex.def)             Requested size: 244.6937pt x 159.62558pt.
+<Images/kernels.png, id=160, 792.71156pt x 980.91469pt>
+File: Images/kernels.png Graphic file (type png)
+<use Images/kernels.png>
+Package pdftex.def Info: Images/kernels.png  used on input line 229.
+(pdftex.def)             Requested size: 244.6937pt x 302.77823pt.
+
+Underfull \vbox (badness 7869) has occurred while \output is active []
+
+ [3 <./Images/thresholding.png> <./Images/compression.png>]
+<Images/repet.png, id=173, 722.7pt x 327.47343pt>
+File: Images/repet.png Graphic file (type png)
+<use Images/repet.png>
+Package pdftex.def Info: Images/repet.png  used on input line 244.
+(pdftex.def)             Requested size: 244.6937pt x 110.87479pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Images/repet_original_overview.png, id=174, 722.7pt x 542.025pt>
+File: Images/repet_original_overview.png Graphic file (type png)
+<use Images/repet_original_overview.png>
+Package pdftex.def Info: Images/repet_original_overview.png  used on input line
+ 256.
+(pdftex.def)             Requested size: 244.6937pt x 183.51689pt.
+<Images/repet_original_example.png, id=175, 926.71219pt x 614.295pt>
+File: Images/repet_original_example.png Graphic file (type png)
+<use Images/repet_original_example.png>
+Package pdftex.def Info: Images/repet_original_example.png  used on input line 
+265.
+(pdftex.def)             Requested size: 244.6937pt x 162.19687pt.
+ [4 <./Images/kernels.png> <./Images/repet.png> <./Images/repet_original_overvi
+ew.png>]
+<Images/repet_adaptive_overview.png, id=194, 722.7pt x 542.025pt>
+File: Images/repet_adaptive_overview.png Graphic file (type png)
+<use Images/repet_adaptive_overview.png>
+Package pdftex.def Info: Images/repet_adaptive_overview.png  used on input line
+ 288.
+(pdftex.def)             Requested size: 244.6937pt x 183.51689pt.
+<Images/repet_adaptive_example.png, id=195, 926.71219pt x 614.295pt>
+File: Images/repet_adaptive_example.png Graphic file (type png)
+<use Images/repet_adaptive_example.png>
+Package pdftex.def Info: Images/repet_adaptive_example.png  used on input line 
+297.
+(pdftex.def)             Requested size: 244.6937pt x 162.19687pt.
+<Images/repet_sim_overview.png, id=203, 722.7pt x 542.025pt>
+File: Images/repet_sim_overview.png Graphic file (type png)
+<use Images/repet_sim_overview.png>
+Package pdftex.def Info: Images/repet_sim_overview.png  used on input line 318.
+
+(pdftex.def)             Requested size: 244.6937pt x 183.51689pt.
+<Images/repet_sim_example.png, id=204, 927.465pt x 613.54219pt>
+File: Images/repet_sim_example.png Graphic file (type png)
+<use Images/repet_sim_example.png>
+Package pdftex.def Info: Images/repet_sim_example.png  used on input line 329.
+(pdftex.def)             Requested size: 244.6937pt x 161.86703pt.
 
 
 Package biblatex Warning: Split bibliography detected.
@@ -725,8 +791,9 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[2 <./Images/reverberation.jpg> <./Images/duet.png>]
-Underfull \hbox (badness 1033) in paragraph at lines 202--202
+[5 <./Images/repet_original_example.png> <./Images/repet_adaptive_overview.png>
+]
+Underfull \hbox (badness 1033) in paragraph at lines 355--355
 []\OT1/ptm/m/n/10 Z. Rafii, M. Cre-mer, and B. Kim, ``[][]Meth-ods and
  []
 
@@ -739,13 +806,13 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-
-Underfull \hbox (badness 1024) in paragraph at lines 203--203
+[6 <./Images/repet_adaptive_example.png> <./Images/repet_sim_overview.png>]
+Underfull \hbox (badness 1024) in paragraph at lines 356--356
 []\OT1/ptm/m/n/10 A. T. Sabin, Z. Rafii, and B. Pardo, ``[][]Weighting-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 203--203
+Underfull \hbox (badness 1888) in paragraph at lines 356--356
 \OT1/ptm/m/n/10 Function-Based Rapid Map-ping of De-scrip-tors to
  []
 
@@ -758,11 +825,12 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[3]
-Underfull \hbox (badness 1852) in paragraph at lines 204--204
+
+Underfull \hbox (badness 1852) in paragraph at lines 357--357
 \OT1/ptm/m/it/10 tional Con-fer-ence on Acous-tics, Speech and Sig-
  []
 
+[7 <./Images/repet_sim_example.png>]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -773,7 +841,7 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 205--205
+Underfull \hbox (badness 1122) in paragraph at lines 358--358
 \OT1/ptm/m/n/10 ground/Foreground Sep-a-ra-tion in Au-dio[][],'' in \OT1/ptm/m/
 it/10 Blind
  []
@@ -805,21 +873,21 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[4] (index.aux)
+[8] (index.aux)
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 04C9EC68B999A949BCAAEBBAFE64D309;1833.
+(rerunfilecheck)             Checksum: C27FFED1A09E83AD2F70E6A072200EE3;3491.
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16691 strings out of 478927
- 291910 string characters out of 2849691
- 1026741 words of memory out of 3000000
- 34283 multiletter control sequences out of 15000+600000
+ 16809 strings out of 478927
+ 294736 string characters out of 2849691
+ 1030033 words of memory out of 3000000
+ 34369 multiletter control sequences out of 15000+600000
  419542 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,1053b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,1053b,1362s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb><C:/Users/zarafii2001/AppData/Local/Programs/MiKTeX/fonts/typ
@@ -829,9 +897,9 @@ grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii200
 1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on index.pdf (4 pages, 412316 bytes).
+Output written on index.pdf (8 pages, 2959089 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
