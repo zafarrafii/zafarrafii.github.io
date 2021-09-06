@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  5 SEP 2021 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.31)  5 SEP 2021 23:27
 entering extended mode
 **./index.tex
 (index.tex
@@ -776,11 +776,36 @@ File: Images/repet_sim_overview.png Graphic file (type png)
 Package pdftex.def Info: Images/repet_sim_overview.png  used on input line 318.
 
 (pdftex.def)             Requested size: 244.6937pt x 183.51689pt.
-<Images/repet_sim_example.png, id=204, 927.465pt x 613.54219pt>
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [5 <./Images/repet_original_example.png> <./Images/repet_adaptive_overview.png
+> <./Images/repet_adaptive_example.png>]
+<Images/repet_sim_example.png, id=218, 927.465pt x 613.54219pt>
 File: Images/repet_sim_example.png Graphic file (type png)
 <use Images/repet_sim_example.png>
 Package pdftex.def Info: Images/repet_sim_example.png  used on input line 329.
 (pdftex.def)             Requested size: 244.6937pt x 161.86703pt.
+<Images/urepet_example1a.png, id=227, 925.20656pt x 596.98032pt>
+File: Images/urepet_example1a.png Graphic file (type png)
+<use Images/urepet_example1a.png>
+Package pdftex.def Info: Images/urepet_example1a.png  used on input line 350.
+(pdftex.def)             Requested size: 244.6937pt x 157.8802pt.
+<Images/urepet_example1b.png, id=228, 925.20656pt x 596.98032pt>
+File: Images/urepet_example1b.png Graphic file (type png)
+<use Images/urepet_example1b.png>
+Package pdftex.def Info: Images/urepet_example1b.png  used on input line 357.
+(pdftex.def)             Requested size: 244.6937pt x 157.8802pt.
+<Images/urepet_example2a.png, id=233, 925.20656pt x 596.98032pt>
+File: Images/urepet_example2a.png Graphic file (type png)
+<use Images/urepet_example2a.png>
+Package pdftex.def Info: Images/urepet_example2a.png  used on input line 370.
+(pdftex.def)             Requested size: 244.6937pt x 157.8802pt.
+<Images/urepet_example2b.png, id=234, 925.20656pt x 596.98032pt>
+File: Images/urepet_example2b.png Graphic file (type png)
+<use Images/urepet_example2b.png>
+Package pdftex.def Info: Images/urepet_example2b.png  used on input line 377.
+(pdftex.def)             Requested size: 244.6937pt x 157.8802pt.
 
 
 Package biblatex Warning: Split bibliography detected.
@@ -791,9 +816,9 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[5 <./Images/repet_original_example.png> <./Images/repet_adaptive_overview.png>
-]
-Underfull \hbox (badness 1033) in paragraph at lines 355--355
+[6 <./Images/repet_sim_overview.png> <./Images/repet_sim_example.png> <./Images
+/urepet_example1a.png>]
+Underfull \hbox (badness 1033) in paragraph at lines 401--401
 []\OT1/ptm/m/n/10 Z. Rafii, M. Cre-mer, and B. Kim, ``[][]Meth-ods and
  []
 
@@ -806,13 +831,14 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[6 <./Images/repet_adaptive_example.png> <./Images/repet_sim_overview.png>]
-Underfull \hbox (badness 1024) in paragraph at lines 356--356
+[7 <./Images/urepet_example1b.png> <./Images/urepet_example2a.png> <./Images/ur
+epet_example2b.png>]
+Underfull \hbox (badness 1024) in paragraph at lines 402--402
 []\OT1/ptm/m/n/10 A. T. Sabin, Z. Rafii, and B. Pardo, ``[][]Weighting-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 356--356
+Underfull \hbox (badness 1888) in paragraph at lines 402--402
 \OT1/ptm/m/n/10 Function-Based Rapid Map-ping of De-scrip-tors to
  []
 
@@ -826,11 +852,11 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 357--357
+Underfull \hbox (badness 1852) in paragraph at lines 403--403
 \OT1/ptm/m/it/10 tional Con-fer-ence on Acous-tics, Speech and Sig-
  []
 
-[7 <./Images/repet_sim_example.png>]
+[8]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -841,7 +867,7 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 358--358
+Underfull \hbox (badness 1122) in paragraph at lines 404--404
 \OT1/ptm/m/n/10 ground/Foreground Sep-a-ra-tion in Au-dio[][],'' in \OT1/ptm/m/
 it/10 Blind
  []
@@ -873,7 +899,12 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[8] (index.aux)
+[9
+
+] (index.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: C27FFED1A09E83AD2F70E6A072200EE3;3491.
 Package logreq Info: Writing requests to 'index.run.xml'.
@@ -881,10 +912,10 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16809 strings out of 478927
- 294736 string characters out of 2849691
- 1030033 words of memory out of 3000000
- 34369 multiletter control sequences out of 15000+600000
+ 16846 strings out of 478927
+ 295718 string characters out of 2849691
+ 1030946 words of memory out of 3000000
+ 34397 multiletter control sequences out of 15000+600000
  419542 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,66p,1053b,1362s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -897,9 +928,9 @@ grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/zarafii2001/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/zarafii2001/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/zarafii200
 1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on index.pdf (8 pages, 2959089 bytes).
+Output written on index.pdf (9 pages, 3473786 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

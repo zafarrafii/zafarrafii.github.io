@@ -239,7 +239,7 @@ For more information about this project, the reader is referred to \cite{article
 
 Repetition is a fundamental element in generating and perceiving structure. In audio, mixtures are often composed of structures where a repeating background signal is superimposed with a varying foreground signal. On this basis, we present the REpeating Pattern Extraction Technique (REPET), a simple approach for separating the repeating background from the non-repeating foreground in an audio mixture. The basic idea is to find the repeating elements in the mixture, derive the underlying repeating models, and extract the repeating background by comparing the models to the mixture. Unlike other separation approaches, REPET does not depend on special parameterizations, does not rely on complex frameworks, and does not require external information. Because it is only based on repetition, it has the advantage of being simple, fast, blind, and therefore completely and easily automatable.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet.png}
 \caption{Overview of REPET.}
@@ -251,7 +251,7 @@ Repetition is a fundamental element in generating and perceiving structure. In a
 
 The original REPET aims at identifying and extracting the repeating patterns in an audio mixture, by estimating a period of the underlying repeating structure and modeling a segment of the periodically repeating background.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_original_overview.png}
 \caption{Overview of the original REPET. Stage 1: calculation of the beat spectrum b and estimation of a repeating period p. Stage 2: segmentation of the mixture spectrogram V and calculation of the repeating segment S. Stage 3: calculation of the repeating spectrogram W and derivation of the time-frequency mask M.}
@@ -260,7 +260,7 @@ The original REPET aims at identifying and extracting the repeating patterns in 
 
 Experiments on a data set of song clips showed that REPET can be effectively applied for music/voice separation. Experiments also showed that REPET can be combined with other methods to improve background/foreground separation; for example, it can be used as a preprocessor to pitch detection algorithms to improve melody extraction, or as a postprocessor to a singing voice separation algorithm to improve music/voice separation.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_original_example.png}
 \caption{Music/voice separation using REPET. The mixture is a female singer (foreground) singing over a guitar accompaniment (background). The guitar has a repeating chord progression that is stable along the song. The spectrograms and the mask are shown for 5 seconds and up to 2.5 kHz.}
@@ -283,7 +283,7 @@ For more information about this project, the reader is referred to \cite{inproce
 
 The original REPET works well when the repeating background is relatively stable (e.g., a verse or the chorus in a song); however, the repeating background can also vary over time (e.g., a verse followed by the chorus in the song). The adaptive REPET is an extension of the original REPET that can handle varying repeating structures, by estimating the time-varying repeating periods and extracting the repeating background locally, without the need for segmentation or windowing.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_adaptive_overview.png}
 \caption{Overview of the adaptive REPET. Stage 1: calculation of the beat spectrogram B and estimation of the repeating periods pj’s. Stage 2: filtering of the mixture spectrogram V and calculation of an initial repeating spectrogram U. Stage 3: calculation of the refined repeating spectrogram W and derivation of the time-frequency mask M.}
@@ -292,7 +292,7 @@ The original REPET works well when the repeating background is relatively stable
 
 Experiments on a data set of full-track real-world songs showed that the adaptive REPET can be effectively applied for music/voice separation.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_adaptive_example.png}
 \caption{Music/voice separation using the adaptive REPET. The mixture is a male singer (foreground) singing over a guitar and drums accompaniment (background). The guitar has a repeating chord progression that changes around 15 seconds. The spectrograms and the mask are shown for 5 seconds and up to 2.5 kHz.}
@@ -313,7 +313,7 @@ For more information about this project, the reader is referred to \cite{inproce
 
 The REPET methods work well when the repeating background has periodically repeating patterns (e.g., jackhammer noise); however, the repeating patterns can also happen intermittently or without a global or local periodicity (e.g., frogs by a pond). REPET-SIM is a generalization of REPET that can also handle non-periodically repeating structures, by using a similarity matrix to identify the repeating elements.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_sim_overview.png}
 \caption{Overview of REPET-SIM. Stage 1: calculation of the similarity matrix S and estimation of the repeating indices jk’s. Stage 2: filtering of the mixture spectrogram V and calculation of an initial repeating spectrogram U. Stage 3: calculation of the refined repeating spectrogram W and derivation of the time-frequency mask M.}
@@ -324,7 +324,7 @@ Experiments on a data set of full-track real-world songs showed that REPET-SIM c
 
 REPET-SIM can be easily implemented online to handle real-time computing, particularly for real-time speech enhancement. The online REPET-SIM simply processes the time frames of the mixture one after the other given a buffer that temporally stores past frames. Experiments on a data set of two-channel mixtures of one speech source and real-world background noise showed that the online REPET-SIM can be effectively applied for real-time speech enhancement.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/repet_sim_example.png}
 \caption{Noise/speech separation using REPET-SIM. The mixture is a female speaker (foreground) speaking in a town square (background). The square has repeating noisy elements (passers-by and cars) that happen intermittently. The spectrograms and the mask are shown for 5 seconds and up to 2 kHz.}
@@ -342,6 +342,52 @@ For more information about this project, the reader is referred to \cite{inproce
 
 \subsection{uREPET (2015)}
 \label{ssec:urepet}
+
+Repetition is a fundamental element in generating and perceiving structure in audio. Especially in music, structures tend to be composed of patterns that repeat through time (e.g., rhythmic elements in a musical accompaniment), and also frequency (e.g., different notes of the same instrument). The auditory system has the remarkable ability to parse such patterns by identifying repetitions within the audio mixture. On this basis, we propose a simple user interface system for recovering patterns repeating in time and frequency in mixtures of sounds. A user selects a region in the log-frequency spectrogram of an audio recording from which she/he wishes to recover a repeating pattern covered by an undesired element (e.g., a note covered by a cough). The selected region is then cross-correlated with the spectrogram to identify similar regions where the underlying pattern repeats. The identified regions are finally averaged over their repetitions and the repeating pattern is recovered.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example1a.png}
+\caption{Log-spectrogram of a melody with a cough covering the first note. The user selected the region of the cough (solid line) and the system identified similar regions where the underlying note repeats (dashed lines).}
+\label{fig:urepet_example1a}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example1b.png}
+\caption{Log-spectrogram of the melody with the first note recovered. The system averaged the identified regions over their repetitions and filtered out the cough from the selected region.}
+\label{fig:urepet_example1b}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/melody&cough.wav}{Melody covered by a cough}
+\item \href{Audio/uREPET/melody-cough.wav}{Recovered melody}
+\item \href{Audio/uREPET/melody.wav}{Original melody} - \href{Audio/REPET/cough.wav}{original cough}
+\end{itemize}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example2a.png}
+\caption{Log-spectrogram of a song with vocals covering an accompaniment. The user selected the region of the first measure (solid line) and the system identified similar regions where the underlying accompaniment repeats (dashed lines).}
+\label{fig:urepet_example2a}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example2b.png}
+\caption{Log-spectrogram of the song with the first measure of the accompaniment recovered. The system averaged the identified regions over their repetitions and filtered out the vocals from the selected region.}
+\label{fig:urepet_example2b}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/accompaniment&vocals.wav}{Accompaniment covered by vocals	}
+\item \href{Audio/uREPET/accompaniment-vocals.wav}{Recovered accompaniment}
+\item \href{Audio/uREPET/accompaniment.wav}{Original accompaniment} - \href{Audio/REPET/vocals.wav}{original vocals}
+\end{itemize}
+
+For more information about this project, the reader is referred to \cite{inproceedings_rafii_apr2015}.
+
+
 
 \subsection{PROJET-MAG (2017)}
 \label{ssec:projet-mag}
