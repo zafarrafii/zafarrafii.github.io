@@ -97,7 +97,7 @@ Research, audio signal analysis, separation, recognition, classification
 
 The proposed researcher is named Zafar Rafii. He received a PhD in electrical engineering and computer science from \href{https://www.northwestern.edu/}{Northwestern University} in 2014. He was with the \href{https://interactiveaudiolab.github.io/}{Interactive Audio Lab} under the supervision of professor Bryan Pardo. Prior to that, he was a research engineer at Audionamix, in France. He is now a research engineer manager in the Applied Research group at \href{https://www.gracenote.com/}{Gracenote}.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.5\columnwidth]{Images/zafar.jpg}
 \caption{Overview of the proposed researcher.}
@@ -147,7 +147,7 @@ People often think about sound in terms of subjective concepts which do not nece
 
 For this study, we focused on reverberation effects. We developed a digital reverberator, mapping the parameters of the digital filters to measures of the reverberation effect, so that the reverberator can be controlled through meaningful descriptors such as "reverberation time" or "spectral centroid." In the learning process, a sound is first modified by a series of reverberation settings using the reverberator. The user then listens and rates each modified sound as to how well it fits the audio concept she/he has in mind. The ratings are finally mapped onto the controls of the reverberator and a simple controller is built with which the user is able to manipulate the degree of her/his audio concept on a sound. Several experiments conducted on human subjects showed that the system learns quickly (under 3 minutes), predicts user responses well (mean correlation of 0.75), and meets users' expectations (average human rating of 7.4 out of 10).
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/reverberation.jpg}
 \caption{A listener rating a sound modified by a series of reverberation settings as to how well it fits the audio concept of "boomy" they have in mind.}
@@ -163,7 +163,7 @@ For more information about this project, the reader is referred to \cite{article
 
 The Degenerate Unmixing Estimation Technique (DUET) is a blind source separation method that can separate an arbitrary number of unknown sources using a single stereo mixture. DUET builds a two-dimensional histogram from the amplitude ratio and phase difference between channels, where each peak indicates a source, with peak location corresponding to the mixing parameters associated with that source. Provided that the time-frequency bins of the sources do not overlap too much - an assumption generally validated by speech mixtures, DUET partitions the time-frequency representation of the mixture by assigning each bin to the source with the closest mixing parameters. However, when time-frequency bins of the sources start to overlap more - as generally seen in music mixtures when using the common short-time Fourier transform (STFT), peaks start to fuse in the 2d histogram and DUET cannot perform separation effectively.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/duet.png}
 \caption{Blind source separation of a stereo recording of Homer, Bart, and Lisa using DUET.}
@@ -194,7 +194,7 @@ For more information about this project, the reader is referred to \cite{inproce
 
 Suppose that you are at a music festival checking on an artist, and you would like to quickly know about the song that is being played (e.g., title, lyrics, album, etc.). If you have a smartphone, you could record a sample of the live performance and compare it against a database of existing recordings from the artist. Services such as Shazam or SoundHound will not work here, as this is not the typical framework for audio fingerprinting or query-by-humming systems, as a live performance is neither identical to its studio version (e.g., variations in instrumentation, key, tempo, etc.) nor it is a hummed or sung melody. We propose an audio fingerprinting system that can deal with live version identification by using image processing techniques. Compact fingerprints are derived using a log-frequency spectrogram and an adaptive thresholding method, and template matching is performed using the Hamming similarity and the Hough Transform.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/thresholding.png}
 \caption{Overview of the fingerprinting stage. The audio signal is first transformed into a log-frequency spectrogram by using the CQT. The CQT-based spectrogram is then transformed into a binary image by using an adaptive thresholding method.}
@@ -209,7 +209,7 @@ For more information about this project, the reader is referred to \cite{inproce
 
 We propose a system which can estimate from an audio recording that has previously undergone lossy compression the parameters used for the encoding, and therefore identify the corresponding lossy coding format. The system analyzes the audio signal and searches for the compression parameters and framing conditions which match those used for the encoding. In particular, we propose a new metric for measuring traces of compression which is robust to variations in the audio content and a new method for combining the estimates from multiple audio blocks which can refine the results. We evaluated this system with audio excerpts from songs and movies, compressed into various coding formats, using different bit rates, and captured digitally as well as through analog transfer. Results showed that our system can identify the correct format in almost all cases, even at high bitrates and with distorted audio, with an overall accuracy of 0.96.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/compression.png}
 \caption{Results for an audio example encoded with AC-3. The system identified traces of compression corresponding to AC-3, but not to other lossy coding formats such as MP3, AAC, Vorbis, or WMA.}
@@ -224,7 +224,7 @@ For more information about this project, the reader is referred to \cite{inproce
 
 The sliding discrete Fourier transform (SDFT) is an efficient method for computing the N-point DFT of a given signal starting at a given sample from the N-point DFT of the same signal starting at the previous sample. However, the SDFT does not allow the use of a window function, generally incorporated in the computation of the DFT to reduce spectral leakage, as it would break its sliding property. We show how windowing can be included in the SDFT by using a kernel derived from the window function, while keeping the process computationally efficient. In addition, this approach allows for turning other transforms, such as the modified discrete cosine transform (MDCT), into efficient sliding versions of themselves.
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/kernels.png}
 \caption{Kernels derived from the (a) Hanning, (b) Blackman, (c) triangular, (d) Parzen, (e) Gaussian (with $\alpha$ = 2.5), and (f) Kaiser (with $\beta$ = 0.5) windows. The kernels were derived for an N-point DFT where N = 2,048 samples. Only the first 100 coefficients at the bottom-left corner of the N-by-N kernels are shown. The values are displayed in log of amplitude.}
@@ -380,20 +380,137 @@ Repetition is a fundamental element in generating and perceiving structure in au
 \end{figure}
 
 \begin{itemize}[noitemsep,topsep=0pt]
-\item \href{Audio/uREPET/accompaniment&vocals.wav}{Accompaniment covered by vocals	}
+\item \href{Audio/uREPET/accompaniment&vocals.wav}{Accompaniment covered by vocals}
 \item \href{Audio/uREPET/accompaniment-vocals.wav}{Recovered accompaniment}
 \item \href{Audio/uREPET/accompaniment.wav}{Original accompaniment} - \href{Audio/REPET/vocals.wav}{original vocals}
+\end{itemize}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example3a.png}
+\caption{Log-spectrogram of a speech covering a noise. The user selected the region of the first sentence (solid line) and the system identified similar regions where the underlying noise repeats (dashed lines).}
+\label{fig:urepet_example3a}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/urepet_example3b.png}
+\caption{Log-spectrogram of the first sentence of the speech extracted. The system averaged the identified regions over their repetitions and extracted the speech from the selected region.}
+\label{fig:urepet_example3b}
+\end{figure}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/speech&noise.wav}{Speech covering a noise}
+\item \href{Audio/uREPET/speech-noise.wav}{Recovered speech}
+\item \href{Audio/uREPET/speech.wav}{Original speech} - \href{Audio/REPET/noise.wav}{original noise}
 \end{itemize}
 
 For more information about this project, the reader is referred to \cite{inproceedings_rafii_apr2015}.
 
 
-
 \subsection{PROJET-MAG (2017)}
 \label{ssec:projet-mag}
 
+We propose a simple user-assisted method for the recovery of repeating patterns in time and frequency which can occur in mixtures of sounds. Here, the user selects a region in a logfrequency spectrogram from which they seek to recover the underlying pattern which is obscured by another interfering source, such as a chord masked by a cough. A cross-correlation is then performed between the selected region and the spectrogram, revealing similar regions. The most similar region is then selected and a variant on the PROJET algorithm, termed PROJET-MAG, is then used to extract the common time-frequency components from the two regions, as well as extracting the components which are not common to both. The results obtained are compared to another user-assisted method based on REPET, and the PROJET-MAG method is demonstrated to give improved results over this baseline.
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/melody&cough.wav}{Melody covered by a cough}
+\item \href{Audio/uREPET/melody-cough (uREPET).wav}{Recovered melody uREPET} - \href{Audio/uREPET/melody-cough (PROJET-MAG).wav}{PROJET-MAG}
+\item \href{Audio/uREPET/melody.wav}{Original melody} - \href{Audio/REPET/cough.wav}{original cough}
+\end{itemize}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/accompaniment&vocals.wav}{Accompaniment covered by vocals}
+\item \href{Audio/uREPET/accompaniment-vocals (uREPET).wav}{Recovered accompaniment uREPET} - \href{Audio/uREPET/accompaniment-vocals (PROJET-MAG).wav}{PROJET-MAG}
+\item \href{Audio/uREPET/accompaniment.wav}{Original accompaniment} - \href{Audio/REPET/vocals.wav}{original vocals}
+\end{itemize}
+
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \href{Audio/uREPET/speech&noise.wav}{Speech covering a noise}
+\item \href{Audio/uREPET/speech-noise.wav (uREPET)}{Recovered speech uREPET} - \href{Audio/uREPET/speech-noise.wav (PROJET-MAG)}{PROJET-MAG}
+\item \href{Audio/uREPET/speech.wav}{Original speech} - \href{Audio/REPET/noise.wav}{original noise}
+\end{itemize}
+
+For more information about this project, the reader is referred to \cite{inproceedings_fitzgerald_mar2017}.
+
+
 \section{Codes}
 \label{sec:codes}
+
+\subsection{Zaf-Python}
+\label{ssec:zaf-python}
+
+This \href{https://github.com/zafarrafii/Zaf-Python}{GitHub repository} contains Zafar's Audio Functions in \textbf{Python} for audio signal analysis: STFT, inverse STFT, mel filterbank, mel spectrogram, MFCC, CQT kernel, CQT spectrogram, CQT chromagram, DCT, DST, MDCT, inverse MDCT.
+
+\begin{figure}[!htb]
+\centering
+\begin{minipage}[b]{\columnwidth}
+\includegraphics[width=\columnwidth]{Images/stft.png}
+\end{minipage}
+\begin{minipage}[b]{\columnwidth}
+\includegraphics[width=\columnwidth]{Images/melspectrogram.png}
+\end{minipage}
+\begin{minipage}[b]{\columnwidth}
+\includegraphics[width=\columnwidth]{Images/cqtspectrogram.png}
+\end{minipage}
+\caption{STFT spectrogram, mel spectrogram, and CQT spectrogram (from top to bottom) computed using the Zaf-Python module.}
+\label{fig:zaf-python}
+\end{figure}
+
+
+\subsection{Zaf-Matlab}
+\label{ssec:zaf-matlab}
+
+This \href{https://github.com/zafarrafii/Zaf-Matlab}{GitHub repository} contains Zafar's Audio Functions in \textbf{Matlab} for audio signal analysis: STFT, inverse STFT, mel filterbank, mel spectrogram, MFCC, CQT kernel, CQT spectrogram, CQT chromagram, DCT, DST, MDCT, inverse MDCT. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/90501-zaf-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{Zaf-Julia}
+\label{ssec:zaf-julia}
+
+This \href{https://github.com/zafarrafii/Zaf-Julia}{GitHub repository} contains Zafar's Audio Functions in \textbf{Julia} for audio signal analysis: STFT, inverse STFT, mel filterbank, mel spectrogram, MFCC, CQT kernel, CQT spectrogram, CQT chromagram, DCT, DST, MDCT, inverse MDCT.
+
+
+\subsection{REPET-Python}
+\label{ssec:repet-python}
+
+This \href{https://github.com/zafarrafii/REPET-Python}{GitHub repository} contains REPET in \textbf{Python} for audio source separation: original REPET, REPET extended, adaptive REPET, REPET-SIM, and online REPET-SIM.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\columnwidth]{Images/repet_original.png}
+\caption{Separation of a musical excerpt into its accompaniment background and vocal foreground estimates (from top to bottom) using the original REPET from the REPET-Python module.}
+\label{fig:repet_original}
+\end{figure}
+
+
+\subsection{REPET-Matlab}
+\label{ssec:repet-matlab}
+
+This \href{https://github.com/zafarrafii/REPET-Matlab}{GitHub repository} contains REPET in \textbf{Matlab} for audio source separation: original REPET, REPET extended, adaptive REPET, REPET-SIM, and online REPET-SIM. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/88803-repet-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{REPET-GUI-Matlab}
+\label{ssec:repet-gui-matlab}
+
+This \href{https://github.com/zafarrafii/REPET-GUI-Matlab}{GitHub repository} contains Matlab GUIs to demo the original REPET and REPET-SIM. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/90736-repet-gui-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{uREPET-Matlab}
+\label{ssec:urepet-matlab}
+
+This \href{https://github.com/zafarrafii/uREPET-Matlab}{GitHub repository} contains a Matlab GUI for uREPET, a simple user interface system for recovering patterns repeating in time and frequency in mixtures of sounds. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/90606-urepet-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{Zap-Matlab}
+\label{ssec:zap-matlab}
+
+This \href{https://github.com/zafarrafii/Zap-Matlab}{GitHub repository} contains a Matlab GUI which implements Zafar's audio player (Zap), featuring some practical functionalities such as a playback line, a select/drag tool, and a synchronized spectrogram. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/90741-zap-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{Problems-Python}
+\label{ssec:problems-python}
+
+This \href{https://github.com/zafarrafii/Problems-Python}{GitHub repository} contains Jupyter notebooks with Python coding problems (and solutions). These can be good exercises for beginners and more experienced users to improve and review their programming skills in Python. 
 
 
 \printbibheading[title={References},heading=bibnumbered]
@@ -405,8 +522,5 @@ For more information about this project, the reader is referred to \cite{inproce
 \printbibliography[title={Technical Reports},type=report,heading=subbibnumbered]
 \printbibliography[title={Talks},type=misc,heading=subbibnumbered]
 \printbibliography[title={Data Sets},type=online,heading=subbibnumbered]
-
-%\bibliographystyle{IEEEbib}
-%\bibliography{refs}
 
 \end{document}
