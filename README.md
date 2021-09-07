@@ -1,6 +1,6 @@
 # Website
 
-This repository contains the HTML code for my website: http://zafarrafii.com/
+This repository contains the code for my website: http://zafarrafii.com/
 
 ## Author
 
