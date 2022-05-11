@@ -246,11 +246,26 @@ The sliding discrete Fourier transform (SDFT) is an efficient method for computi
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{Images/kernels.png}
-\caption{Kernels derived from the (a) Hanning, (b) Blackman, (c) triangular, (d) Parzen, (e) Gaussian (with $\alpha$ = 2.5), and (f) Kaiser (with $\beta$ = 0.5) windows. The kernels were derived for an N-point DFT where N = 2,048 samples. Only the first 100 coefficients at the bottom-left corner of the N-by-N kernels are shown. The values are displayed in log of amplitude.}
+\caption{Kernels derived from the Hanning, Blackman, triangular, Parzen, Gaussian (with $\alpha$ = 2.5), and Kaiser (with $\beta$ = 0.5) windows. The kernels were derived for an N-point DFT where N = 2,048 samples. Only the first 100 coefficients at the bottom-left corner of the N-by-N kernels are shown. The values are displayed in log of amplitude.}
 \label{fig:kernels}
 \end{figure}
 
 For more information about this project, the reader is referred to \cite{article_rafii_nov2018}.
+
+
+\subsection{Constant-Q Harmonic Coefficients (2022)}
+\label{ssec:cqhc}
+
+Timbre is the attribute of sound that makes, for example, two musical instruments playing the same note sound different. It is typically associated with the spectral (but also the temporal) envelope and assumed to be independent from the pitch (but also the loudness) of the sound. We show how to design a simple but effective pitch-independent timbre feature, well adapted to musical data, by deriving it from the constant-Q transform (CQT), a log-frequency transform that matches the typical Western musical scale. The decomposition of the CQT spectrum into an energy-normalized pitch component and a pitch-normalized spectral component is demonstrated, the latter from which a number of harmonic coefficients are extracted. The discriminative powers of these constant-Q harmonic coefficients (CQHCs) are then evaluated on the NSynth data set, a publicly available, large-scale data set of musical notes, where they are compared with the mel-frequency cepstral coefficients (MFCCs), a feature originally designed for speech recognition but commonly used to characterize timbre in music.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.6\columnwidth]{Images/cqtdeconv.png}
+	\caption{The deconvolution of the CQT spectrogram (shown in dB) of 12 acoustic bass notes playing from C1 to B1, into a pitch-normalized spectral component (shown in dB), and an energy-normalized pitch component (shown in [0, 1]).}
+	\label{fig:cqtdeconv}
+\end{figure}
+
+A Python implementation of the CQHCs online is provided with some examples \href{https://github.com/zafarrafii/CQHC-Python}{here}. For more information about this project, the reader is referred to \cite{article_rafii_may2022}.
 
 
 \section{REPET}
@@ -524,6 +539,12 @@ This \href{https://github.com/zafarrafii/uREPET-Matlab}{GitHub repository} conta
 \label{ssec:zap-matlab}
 
 This \href{https://github.com/zafarrafii/Zap-Matlab}{GitHub repository} contains a Matlab GUI which implements Zafar's audio player (Zap), featuring some practical functionalities such as a playback line, a select/drag tool, and a synchronized spectrogram. See also \href{https://www.mathworks.com/matlabcentral/fileexchange/90741-zap-matlab}{MathWorks' File Exchange}.
+
+
+\subsection{CQHC-Python}
+\label{ssec:cqhc-python}
+
+This \href{https://github.com/zafarrafii/CQHC-Python}{GitHub repository} contains a Python implementation for the CQHCs, including a module with the MFCCs, the CQT spectrogram, the CQT deconvolution, and the CQHCs themselves, and notebooks with examples, tests, and notes.
 
 
 \subsection{Problems-Python}
