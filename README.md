@@ -1,6 +1,6 @@
 # Website
 
-This repository contains all the files for my website: http://zafarrafii.com/
+http://zafarrafii.com/
 
 ## Author
 
