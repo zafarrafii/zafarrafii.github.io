@@ -27,7 +27,7 @@
 \maketitle
 
 \begin{abstract}
-We present Zafar, Ze Awesome French Audio Researcher. The proposed researcher has a PhD in electrical engineering and computer science from Northwestern University, with a focus on audio signal analysis. He has more than 40 publications, including conference papers, journal articles, and patents, with more than 2,000 citations overall. He is actively involved within the research community, as a reviewer, chair, and editor for several conferences and journals, an organizer of a networking meetup group in the San Francisco Bay Area, and an organizer of an international mentoring program for underrepresented groups in music information retrieval. He is currently a research scientist at Audible Magic.
+We present Zafar, Ze Awesome French Audio Researcher. The proposed researcher has a PhD in electrical engineering and computer science from Northwestern University, with a focus on audio signal analysis. He has more than 40 publications, including conference papers, journal articles, and patents, with 2,300 citations overall. He is actively involved within the research community, as a reviewer, chair, and editor for several conferences and journals, an organizer of a networking meetup group in the San Francisco Bay Area, and an organizer of an international mentoring program for underrepresented groups in music information retrieval. He is currently a research scientist at Audible Magic.
 \end{abstract}
 
 \begin{keywords}
@@ -54,6 +54,7 @@ Research, audio signal analysis, separation, recognition, classification
 \nocite{patent_pardo_jul2015}
 
 % Journal Articles
+\nocite{article_rafii_nov2024}
 \nocite{article_rafii_may2022}
 \nocite{article_rafii_nov2018}
 \nocite{article_rafii_aug2018}
@@ -267,6 +268,22 @@ Timbre is the attribute of sound that makes, for example, two musical instrument
 \end{figure}
 
 A Python implementation of the CQHCs online is provided with some examples \href{https://github.com/zafarrafii/CQHC-Python}{here}. For more information about this project, the reader is referred to \cite{article_rafii_may2022}.
+
+
+\subsection{Cheap Music Detection using a Simple Multilayer Perceptron with Temporal Integration (2024)}
+\label{ssec:music_detection}
+
+We will show how to design a cheap system for detecting when music is present in audio recordings. We will make use of a small neural network consisting of a simple multilayer perceptron (MLP), along with compact features derived from the mel spectrogram by means of temporal integration. Temporal integration is the process of combining information over time, for example, by computing statistics over a sequence of spectra in audio. We will experiment with common statistics and compare the performances of various small MLPs, with each other and with more complex models, on two large music detection datasets. We note that this article does not claim to propose a state-of-the-art music detection model but rather to demonstrate how anybody can design their own efficient system from scratch using simple ideas and with limited resources.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1.0\columnwidth]{Images/temporal_integration.png}
+	\caption{The temporal integration over a 10-s segment of a log mel spectrogram by computing the first four moments (mean, variance, skewness, and
+kurtosis) and concatenating them into a 1D feature that can then be fed into an MLP..}
+	\label{fig:temporal_integration}
+\end{figure}
+
+For more information about this project, the reader is referred to \cite{article_rafii_nov2024}.
 
 
 \section{REPET}
