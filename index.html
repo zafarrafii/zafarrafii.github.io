@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET3MM9DFW4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ET3MM9DFW4');
-</script>
-<meta HTTP-EQUIV="refresh" content="0; url=https://www.zafarrafii.com/index.pdf">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET3MM9DFW4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ET3MM9DFW4');
+    </script>
+    <title>Random PDF Redirect</title>
 </head>
 <body>
+
+<script>
+    // Array of PDF file URLs
+    const pdfUrls = [
+        "https://www.zafarrafii.com/index0.pdf",
+        "https://www.zafarrafii.com/index1.pdf",
+    ];
+
+    // Generate a random index
+    const randomIndex = Math.floor(Math.random() * pdfUrls.length);
+
+    // Redirect to the randomly selected PDF
+    window.location.href = pdfUrls[randomIndex];
+</script>
+
 </body>
 </html>
